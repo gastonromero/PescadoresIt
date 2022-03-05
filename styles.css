@@ -98,6 +98,9 @@ header {
 .search img {
     height: 18px;
     border: none;
+    position: absolute;
+    margin-left: -34px;
+    margin-top: -14px;
 }
 
 .background-banner img {
