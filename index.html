@@ -1,53 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pescadores It</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <header>
         <h1> Pescadores IT</h1>
+        <div class="logo">
+            <img class="logo" src="/assets/logo_pescar.png" alt="logo">
+        </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de Nosotros</a></li>
+                <li><a href="#nosotros">Acerca de Nosotros</a></li>
                 <li><a href="#pescar">¿Qués es Pescar?</a></li>
                 <li><a href="#formacionIt">Formacion IT</a></li>
                 <li><a href="#formacionPersonal">Formacion Personal</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </nav>></li>
+        </nav>
+        <a class="login" href="#"><button class="acceder">ACCEDER</button></a>
     </header>
+    <div class="frase-header">
+        <p><span>“</span>si quieres quitarle el hambre a un hombre, dale un pez;</p>
+        <p>  pero si quieres que no
+            vuelva a tener hambre, enseñale a pescar.<span>”</span></p>
+             <div class="search-bar">
+              <input type="search" placeholder="Buscar...">
+              <button class="search">
+                  <img src="/assets/search.png" alt="">
+              </button>
+            </div>
+    </div>
+
     <main>
-        <article></article>
+        <section class="noticias">
+            <div class="background-banner">
+                <img src="/assets/fondo.jpg" alt="background-banner">
+            </div>
+            <div>
+            </div>
+        </section>
+        <!--REVISAR ESTO, section o article-->
+        <section class="about-us">
+            <!-- (esto ya va en main, ms abajo esta) -->
+            <div class="icons-1">
+                <img src="/assets/Deco.png" alt="">
+            </div>
+            <article>
+                <div>
+                    <img src="/assets/acerca_de_nosotros.png" alt="">
+                </div>
+                <h2>//Acerca de nosotros.</h2>
+                <p></em>¡Hola futuro programador!</em>
+                    <!-- volver a leer uso de em (se usa diferente, semanticamente). Si es unicamente para algo visual de usa italic en css-->
+                    Muchas gracias por visitar nuestra pagina.</p>
+                <p> Somos un equipo de desarrolladores de la <em>Fundación Pescar</em> (¿Cómo? ¿No conoces la fundación
+                    aún? Cliquea acá para ver mas info sobre ella)
+                    que junto con <em>J.P. Morgan</em> y <em>Loma Negra</em>, nos brindaron las herramientas necesarias
+                    para poder estar interactuando con vos en este momento.
+                    Desarrollamos este proyecto con el fin de brindar a las personas las herramientas necesarias
+                    para poder insertarse laboralmente y dar sus primeros pasos en el mundo IT.
+                    Estamos muy contentos de que estés acá, esperamos nuestro contenido te sea útil y entretenido.</p>
+                <p>Si queres dejarnos algún comentario, te invitamos a ponerte en contacto con nosotros y responderemos
+                    gustosamente.</p>
+                </p>
+            </article>
+            <article class="linkedin">
+                <div class="logo-linkedin">
+                    <img src="/assets/LinkedIn_Logo 1.png" alt="">
+                </div>
+                <!-- COMPLETAR MICA -->
+            </article>
+        </section>
+
+        <article id="pescar">
+            <h2>// ¿Qué es Pescar?</h2>
+            <p>La Fundación Pescar es una organización sin fines de lucro que tiene como misión formar a personas de
+                escasos recursos económicos
+                para que puedan diseñar un proyecto de vida e insertarse en el mundo laboral. <br /> Promueve diversos
+                programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
+                formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
+                areas ( programación web, estética en general, atención al cliente, entre otras).</p>
+            <p>Promueve diversos programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
+                formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
+                areas ( programación web, estética en general, atención al cliente, entre otras).</p>
+            <p>Además de las herramientas que brinda para ayudarte, también ofrece a sus graduados un seguimiento de
+                2 años en su red de egresados para asegurar la empleabilidad, difunde búsquedas laborales y te acompaña
+                en tus proceso de postulación y selección.</p>
+            <div>
+                <img src="/assets/logo_pescar_2.png" alt="">
+            </div>
+            <a href="www.pescar.org.ar">www.pescar.org.ar</a>
+            <p>Fundación Pescar</p>
+            <input type="button" id="#clickhere" value="click here">
+        </article>
+
+        <article id="form-it">
+            <h2>//Formación IT.</h2>
+            <p>¡Todo trabajo implica habilidades y conocimientos necesarios para el puesto!</p>
+            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación IT, las cuales nos ayudaron
+                a nuestro aprendizaje.</p>
+            <p>¡Te invitamos a que las conozcas!</p>
+            <h3>Herramientas</h3>
+            <!-- imagenes -->
+
+        </article>
+        <article id="form-personal">
+            </h2> // Formación Personal.</h2>
+            <p>Conseguir un trabajo puede ser un largo proceso que conlleva dedicación y esfuerzo, por eso creemos
+                necesario conocer cuales son nuestras fortalezas o debilidades.</p>
+            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación Personal, las cuales nos
+                ayudaron a nuestro autoconocimiento así como también desenvolvernos de manera optima ante un
+                reclutador.</p>
+            <p>¡Te invitamos a que las conozcas!</p>
+
+            <h3>Herramientas</h3>
+
+            <!-- imagenes -->
+
+        </article>
+        <article id="contacto">
+        </article>
     </main>
     <footer>
-        <p>Logo</p>
+        <div class="logo">
+            <img src="/assets/logo_pescar.png" alt="logo">
+        </div>
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#acerca">Acerca de Nosotros</a></li>
-                <li><a href="#pescar"></a>¿Qués es Pescar?</a></li>
-                <li><a href="#contacto"></a>Contacto</a></li>
+                <li><a href="#pescar">¿Qués es Pescar?</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
             <ul>
-                <li hrf=""></li>
-                <li hrf=""></li>
-                <li hrf=""></li>
-                <li hrf=""></li>
-                <li hrf=""></li>
-                <li hrf=""></li>
-
+                <li><a hrf="">Formación IT</a></li>
+                <li><a hrf="">Aprendé Jugando</a></li>
+                <li><a hrf="">Ejercicios de Lógica</a></li>
+                <li><a hrf="">Ejercicios de Programación</a></li>
+                <li><a hrf="">Recursos</a>/li>
+                <li><a hrf="">Foro de </a></li>
             </ul>
             <ul>
-                <li href="">Twitter</li>
-                <li href="">Facebook</li>
-                <li href="">Linkedin</li>
-                <li href="">Youtube</li>
+                <li><a hrf="">Formación </a></li>
+                <li><a hrf="">Aprendé Jugando</a></li>
+                <li><a hrf="">Armado de CV</a></li>
+                <li><a hrf="">Emulador de Entrevistas</a></li>
+                <li><a hrf="">Recursos</a></li>
+                <li><a hrf="">Foro de Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Linkedin</a></li>
+                <li><a href="">Youtube</a></li>
             </ul>
         </div>
+        <p>Lorem ipsum dolor sit amet.</p>
     </footer>
 </body>
+
 </html>
