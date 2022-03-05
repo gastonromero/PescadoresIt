@@ -1,1 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=IBM+Plex+Mono:wght@300;400&family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    display: none;
+}
+
+li,
+a,
+button {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid hsla(0, 1%, 65%, 0.5)
+}
+
+.logo img {
+    height: 55px;
+    cursor: pointer;
+    margin-left: 60px;
+    padding-bottom: 2px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0 30px;
+    font-size: 17px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.nav-links li a {
+    color: black;
+}
+
+.nav-links li a:hover {
+    color: orange
+}
+
+.acceder {
+    padding: 9px 25px;
+    background-color: rgb(255, 139, 6);
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    margin-right: 160px;
+    color: white;
+}
+
+.frase-header {
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 45px;
+    text-align: center;
+    position: relative;
+}
+
+.frase-header p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.frase-header p span {
+    color: rgb(255, 139, 6)
+}
+
+.search-bar {
+    position: absolute;
+    right: 0;
+    margin-right:35px;
+    margin-top: 5px;
+}
+
+.search-bar input {
+    height: 35px;
+    padding-left: 7px;
+    border: 2px solid rgb(172, 199, 224);
+    border-radius: 5px;
+    width: 250px;
+}
+
+.search img {
+    height: 18px;
+    border: none;
+}
+
+.background-banner img {
+    height: 801px;
+    width: 100%;
+}
