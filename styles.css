@@ -11,6 +11,8 @@ h1 {
     display: none;
 }
 
+/*Seccion inicio*/
+
 li,
 a,
 button {
@@ -107,3 +109,44 @@ header {
     height: 801px;
     width: 100%;
 }
+
+/*Termina sección Inicio */
+/* Comienza seccion formacion it*/
+
+.img-form-it img {
+    height: 100px;
+    margin-left: 100px;
+}
+
+.barras {
+    color: orangered;
+}
+
+.punto {
+    color: blue;
+}
+
+.form-it {
+    width: 50%;
+}
+
+.formacion-it {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacion-it h2 {
+   margin: 15px 0 40px 50px;
+   text-transform: uppercase;
+   font-size: 3em;
+}
+
+.formacion-it p {
+    font-size: 1.2em;
+}
+
+.formacion-it p:last-child {
+    margin-top: 30px;
+}
+
