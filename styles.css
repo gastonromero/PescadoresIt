@@ -150,3 +150,41 @@ header {
     margin-top: 30px;
 }
 
+.flecha {
+    color: orangered;
+    font-size: 2em;
+}
+
+.herramientas-it {
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.herramientas-it h3 {
+    text-transform: uppercase;
+    margin-bottom: 2.4em;
+    margin-left: 700px;
+}
+
+.separador {
+    display: none;  /*reubicar despues*/
+}
+
+
+.items-herramientas img {
+    height: 85px;
+}
+
+.items-herramientas {
+    background-color: aquamarine;
+    margin: 5px;
+    justify-content: center;
+}
+
+.items-herramientas p {
+    display: block;
+}
