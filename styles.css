@@ -11,7 +11,9 @@ h1 {
     display: none;
 }
 
+
 /*Seccion inicio*/
+
 
 li,
 a,
@@ -61,6 +63,7 @@ header {
     height: 45px;
     margin-right: 160px;
     color: white;
+
     cursor: pointer;
 }
 
@@ -71,6 +74,11 @@ header {
 
 .frase-header {
     margin: 15px;
+}
+
+.frase-header {
+    margin: 15px 0px;
+
     display: flex;
     flex-direction: column;
     height: 45px;
@@ -106,6 +114,7 @@ header {
 .search img {
     height: 18px;
     border: none;
+
     position: absolute;
     margin-left: -34px;
     margin-top: -14px;
@@ -114,6 +123,7 @@ header {
 .background-banner img {
     height: 801px;
     width: 100%;
+
 }
 
 
