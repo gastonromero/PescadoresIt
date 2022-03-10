@@ -11,6 +11,10 @@ h1 {
     display: none;
 }
 
+
+/*Seccion inicio*/
+
+
 li,
 a,
 button {
@@ -59,10 +63,22 @@ header {
     height: 45px;
     margin-right: 160px;
     color: white;
+
+    cursor: pointer;
+}
+
+.acceder:hover {
+   transition: all .2s ease-in-out;
+   transform: scale(1.05);
+}
+
+.frase-header {
+    margin: 15px;
 }
 
 .frase-header {
     margin: 15px 0px;
+
     display: flex;
     flex-direction: column;
     height: 45px;
@@ -98,9 +114,95 @@ header {
 .search img {
     height: 18px;
     border: none;
+
+    position: absolute;
+    margin-left: -34px;
+    margin-top: -14px;
 }
 
 .background-banner img {
     height: 801px;
     width: 100%;
+
+}
+
+
+
+/*Termina sección Inicio */
+/* Comienza seccion formacion it*/
+
+.img-form-it img {
+    height: 100px;
+    margin-left: 100px;
+}
+
+.barras {
+    color: orangered;
+}
+
+.punto {
+    color: blue;
+}
+
+.form-it {
+    width: 50%;
+}
+
+.formacion-it {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formacion-it h2 {
+   margin: 15px 0 40px 50px;
+   text-transform: uppercase;
+   font-size: 3em;
+}
+
+.formacion-it p {
+    font-size: 1.2em;
+}
+
+.formacion-it p:last-child {
+    margin-top: 30px;
+}
+
+.flecha {
+    color: orangered;
+    font-size: 2em;
+}
+
+.herramientas-it {
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.herramientas-it h3 {
+    text-transform: uppercase;
+    margin-bottom: 2.4em;
+    margin-left: 700px;
+}
+
+.separador {
+    display: none;  /*reubicar despues*/
+}
+
+
+.items-herramientas img {
+    height: 85px;
+}
+
+.items-herramientas {
+    background-color: aquamarine;
+    margin: 5px;
+    justify-content: center;
+}
+
+.items-herramientas p {
+    display: block;
 }
