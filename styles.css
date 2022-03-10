@@ -61,10 +61,16 @@ header {
     height: 45px;
     margin-right: 160px;
     color: white;
+    cursor: pointer;
+}
+
+.acceder:hover {
+   transition: all .2s ease-in-out;
+   transform: scale(1.05);
 }
 
 .frase-header {
-    margin: 15px 0px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     height: 45px;
@@ -109,6 +115,8 @@ header {
     height: 801px;
     width: 100%;
 }
+
+
 
 /*Termina sección Inicio */
 /* Comienza seccion formacion it*/
