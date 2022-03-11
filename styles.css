@@ -97,24 +97,30 @@ header {
 
 .search-bar input {
     height: 35px;
-    padding-left: 7px;
+    padding-left: 37px;
     border: 2px solid rgb(172, 199, 224);
     border-radius: 5px;
     width: 250px;
 }
 
-.search img {
-    height: 18px;
+.search-bar input:focus {
+    outline: none;
+}
+
+.search i{
+    height: 20px;
     border: none;
     position: absolute;
-    margin-left: -34px;
-    margin-top: -14px;
+    margin-left: -240px;
+    margin-top: 10px;
+    color: orangered
 }
 
 .background-banner img {
     height: 801px;
     width: 100%;
 }
+
 
 
 
