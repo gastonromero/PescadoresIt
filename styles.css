@@ -44,6 +44,10 @@ header {
     font-size: 17px;
     font-family: 'IBM Plex Mono', monospace;
 }
+.nav-links li:hover {
+   transition: all .2s ease-in-out;
+   transform: scale(1.05);
+}
 
 .nav-links li a {
     color: black;
@@ -62,6 +66,7 @@ header {
     margin-right: 160px;
     color: white;
     cursor: pointer;
+    font-size: 16px;
 }
 
 .acceder:hover {
@@ -122,18 +127,15 @@ header {
 }
 
 
-
-
 /*Termina sección Inicio */
 /* Comienza seccion formacion it*/
 
-.img-form-it img {
+.img-form img {
     height: 100px;
-    margin-left: 100px;
 }
 
 .barras {
-    color: orangered;
+    color: orange;
 }
 
 .punto {
@@ -141,23 +143,27 @@ header {
 }
 
 .form-it {
-    width: 50%;
+    width: 100%;
+    background-color:  #1c1e27
 }
 
 .formacion-it {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 900px;
 }
 
 .formacion-it h2 {
    margin: 15px 0 40px 50px;
    text-transform: uppercase;
    font-size: 3em;
+   color: white;
 }
 
 .formacion-it p {
     font-size: 1.2em;
+    color: white;
 }
 
 .formacion-it p:last-child {
@@ -165,23 +171,27 @@ header {
 }
 
 .flecha {
-    color: orangered;
+    color: orange;
     font-size: 2em;
 }
 
 .herramientas-it {
     margin-top: 30px;
+    text-align: center;
 }
 
-.flex-container {
+.icon-herramientas-it {
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #1c1e27
 }
 
 .herramientas-it h3 {
     text-transform: uppercase;
-    margin-bottom: 2.4em;
-    margin-left: 700px;
+    margin-bottom: 5em;
+    margin-left: 00px;
+    color: white;
 }
 
 .separador {
@@ -194,11 +204,84 @@ header {
 }
 
 .items-herramientas {
-    background-color: aquamarine;
-    margin: 5px;
-    justify-content: center;
+    background-color: #1c1e27;
+    width: 18%;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 70px;
 }
 
 .items-herramientas p {
     display: block;
+    color: orange;
+    font-size: 1.3em;
+}
+
+.separador1 {
+    background-color: #1c1e27;
+    width: 100%;
+}
+
+/*Termina sección formación it */
+
+.form-personal {
+    width: 100%;
+    background-color:  #1c1e27;
+}
+
+.formacion-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 950px
+}
+
+.formacion-p h2 {
+    margin: 15px 0 40px 50px;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+ }
+ 
+ .formacion-p p {
+     font-size: 1.2em;
+     color: white;
+ }
+
+ .herramientas-personal h3 {
+    text-transform: uppercase;
+    margin-bottom: 5em;
+    margin-right: 580px;
+    color: white;
+}
+
+.herramientas-personal {
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.icon-herramientas-personal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color:#1c1e27;;
+
+}
+
+.icon-herramientas-personal img {
+    height: 85px;
+}
+
+.icon-herramientas-personal p {
+    color: orange;
+    font-size: 1.3em;
+}
+
+.icon-gaming-personal {
+    background-color: #1c1e27;
+    width: 18%;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 70px;
 }
