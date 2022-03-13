@@ -234,26 +234,31 @@
             <div class="img-contacto">
                 <img src="./assets/contacto.png" alt="">
             </div>
+
             <article class="contacto-a" id="contacto-a">
             <h2><span class="barras">//</span>Contacto<span class="punto">.</span></h2>        
             </article>
-                <form action="contacto.php" method="post"> <!--Confirmar si el metodo esta bien-->
-                        <div>
-                        <label for="nombre"><span class="box">>Nombre:</span></label>
-                        <input id="nombre" class="form-control" name="nombre" type="text" minlength="3" autofocus required placeholder="Ej: Jon Snow">
-                        </div>
-                        <div>
-                        <label for="email"><span class="box">>Email:</span></label>
-                        <input id="email" name="email" type="email" minlength="3" required placeholder="Ej: thekinginthenorth@gmail.com">
-                        </div>
-                        <div>
-                        <label for="motivo"><span class="box">>Motivo de contacto:</span></label>
-                        <textarea type="text" id="motivo" name="motivo" minlength="3" required placeholder="Dejanos tu mensaje"></textarea>
-                        </div>
-                        <div>
-                        <input id="submit" name="submit" type="submit" value="->Enviar">
-                        </div>
-                </form>
+
+            <form action="contacto.php" method="post"> <!--Confirmar si el metodo esta bien-->
+                    <div class="group">
+                    <label for="nombre"><span class="box">>Nombre:</span></label></div>
+                    <input id="nombre" name="nombre" type="text" minlength="3" autofocus required placeholder="Ej: Jon Snow">
+                    </div>
+
+                    <div>
+                    <label for="email"><span class="box">>Email:</span></label>
+                    <input id="email" name="email" type="email" minlength="3" required placeholder="Ej: thekinginthenorth@gmail.com">
+                    </div>
+
+                    <div>
+                    <label for="motivo"><span class="box">>Motivo de contacto:</span></label>
+                    <textarea type="text" id="motivo" name="motivo" minlength="3" required placeholder="Dejanos tu mensaje"></textarea>
+                    </div>
+
+                    <div>
+                    <input id="submit" name="submit" type="submit" value="->Enviar">
+                    </div>
+            </form>
         </section>
         <!--FINALIZA CONTACTO | MICA-->
 <!--*************************************************************************************************************************************************************-->

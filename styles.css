@@ -209,7 +209,6 @@ header {
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
         /*MICA CSS*/
-        
         main {
             background-color: #1c1e27
         }
@@ -233,16 +232,19 @@ header {
         }
         
         .contacto-a h2 {
+        /*Title SemiBold*/
             text-transform: uppercase;
+            font-family: 'IBM Plex Mono';
+            font-style: normal;
+            font-weight: 600;
             font-size: 3em;
-            font-family:'IBM Plex Mono';
+            line-height: 62px;
             color: #ffffff;
         }
-        
+
         /*COMIENZO CON EL FORM*/
         
         form {
-            margin:0 auto;
             width:400px;
         }
         
@@ -254,7 +256,6 @@ header {
             border: none;
             border-radius: 5px;
             padding:20px; /*Tamaño del box*/
-            margin-top:10px; /*margen con el resto*/
             font-size:1.2em;
             font-family:'IBM Plex Mono';
             font-style: normal;
@@ -263,11 +264,15 @@ header {
             line-height: 21px;
             text-align: left;
             color:#000000;
-        
+            margin-bottom: 15px;
         }
         
         textarea {
             height:200px;
+        }
+
+        input , textarea:focus {
+            outline: none; /*para que no marque los bordes cuando selecciono*/
         }
         
         #submit {
@@ -278,11 +283,18 @@ header {
             width:150px;
             height:50px;
             cursor:pointer;
-        
+            margin-left: 250px;
+
             color: white;
             font-weight: 600;
             text-align: center;
             line-height: 21px;
+        }
+
+        /*Modifiqué el cursor-hover*/
+        #submit:hover {
+            transition: all .2s ease-in-out;    
+            transform: scale(1.05);
         }
         
         .box {
@@ -290,13 +302,15 @@ header {
             font-family: 'IBM Plex Mono';
             font-style: normal;
             font-weight: 600;
-            font-size:1.2em;
+            font-size:1.2em; /*con esto cambias el tamaño de la letra*/
             line-height: 21px;
             color: #FFFFFF;
-            /*box negro*/
+            /* Box negro*/
             background: #000000;
             opacity: 0.75;
             border-radius: 5px;
             padding: 10px;
+            display: block;
+            margin-bottom: 15px;
         }
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
