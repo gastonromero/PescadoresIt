@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pescadores It</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
     <header>
         <h1> Pescadores IT</h1>
+        <!-- Comienza sección Inicio (Gaston) -->
         <div class="logo">
             <img class="logo" src="/assets/logo_pescar.png" alt="logo">
         </div>
@@ -27,20 +27,20 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <a class="login" href="#"><button class="acceder">ACCEDER</button></a>
+        <a href="login.html"><button type="button" class="acceder">ACCEDER</button></a>
     </header>
     <div class="frase-header">
         <p><span>“</span>si quieres quitarle el hambre a un hombre, dale un pez;</p>
         <p>  pero si quieres que no
-            vuelva a tener hambre, enseñale a pescar.<span>”</span></p>
-             <div class="search-bar">
-              <input type="search" placeholder="Buscar...">
-              <button class="search">
-                  <img src="/assets/search.png" alt="">
-              </button>
-            </div>
+            vuelva a tener hambre, enseñale a pescar<span class="punto-azul">.</span><span>”</span></p>
+            <div class="search-bar">
+                <input type="search" placeholder="Buscar...">
+                <a class="search"  href="#">
+                    <i class="fas fa-search"></i>
+                  </a>
+              </div>
     </div>
-
+   <!-- Finaliza sección Inicio -->
     <main>
         <section class="noticias">
             <div class="background-banner">
@@ -103,34 +103,141 @@
             <p>Fundación Pescar</p>
             <input type="button" id="#clickhere" value="click here">
         </article>
-
-        <article id="formacionIt">
-            <h2>//Formación IT.</h2>
+        <!-- Comienza seccion formacion it (Julieta) -->
+        <section class="form-it">
+        <article class="formacion-it">
+            <div class="img-form">
+                <img src="./assets/formacion_it.png" alt="">
+            </div>
+            <h2><span class="barras">//</span> Formación IT<span class="punto"> .</span></h2>
             <p>¡Todo trabajo implica habilidades y conocimientos necesarios para el puesto!</p>
-            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación IT, las cuales nos ayudaron
+            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación IT, las cuales
+                <p>nos ayudaron
                 a nuestro aprendizaje.</p>
             <p>¡Te invitamos a que las conozcas!</p>
-            <h3>Herramientas</h3>
-            <!-- imagenes -->
-
         </article>
-        <article id="formacionPersonal">
-            </h2> // Formación Personal.</h2>
-            <p>Conseguir un trabajo puede ser un largo proceso que conlleva dedicación y esfuerzo, por eso creemos
+        <article class="herramientas-it">
+            <h3>Herramientas <span class="flecha">--></span></h3>
+        <div class="icon-herramientas-it">
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad.png" alt="">
+                <p>aprende_jugando</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad (1).png" alt="">
+                <p>ejercicios_de_logica</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad (6).png" alt="">
+                <p>ejercicios_de_programación</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/folder.png" alt="">
+                <p>recursos</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad (5).png" alt="">
+                <p>foros_de_ayuda</p>
+            </div>
+        </div>
+        <div class="separador">
+            <img src="./assets/separador_1.png" alt="">
+        </div>
+    </article>
+</section>
+<div class="separador1">
+    <img src="/assets/separador_1.png" alt="">
+</div>
+        <!-- Finaliza seccion formacion it -->
+        <!-- Comienza seccion formacion personal (Juli/Gaston) -->
+        <section class="form-personal">
+        <article class="formacion-p">
+            <div class="img-form">
+                <img src="/assets/formacion_personal.png" alt="">
+            </div>
+            <h2><span class="barras">//</span> Formación Personal<span class="punto"> .</span></h2>
+            <p>Conseguir un trabajo puede ser un largo proceso que conlleva dedicación y esfuerzo,</p> <p>por eso creemos
                 necesario conocer cuales son nuestras fortalezas o debilidades.</p>
-            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación Personal, las cuales nos
-                ayudaron a nuestro autoconocimiento así como también desenvolvernos de manera optima ante un
-                reclutador.</p>
+            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación Personal, las cuales nos</p>
+            <p>ayudaron a nuestro autoconocimiento así como también desenvolvernos de manera optima ante un</p>
+             <p>reclutador.</p>
             <p>¡Te invitamos a que las conozcas!</p>
-
-            <h3>Herramientas</h3>
-
-            <!-- imagenes -->
-
         </article>
-        <article id="contacto">
-        </article>
-    </main>
+        <article class="herramientas-personal">
+            <h3>Herramientas<span class="flecha"> --></span></h3>
+
+        <div class="icon-herramientas-personal">
+                <div class="icon-gaming-personal">
+                    <img src="./assets/gaming-pad.png" alt="">
+                    <p>aprende_jugando</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="/assets/gaming-pad (9).png" alt="">
+                    <p>armado_de_cv</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="./assets/folder.png" alt="">
+                    <p>recursos</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="./assets/computer.png" alt="">
+                    <p>emulador_de_entrevista</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="./assets/gaming-pad (5).png" alt="">
+                    <p>foros_de_ayuda</p>
+                </div>
+        </div>
+    </article>
+</section>
+        <!-- Finaliza seccion formacion personal -->
+
+        <!-- Falta subir el separador con la flecha en el medio -->
+        <!-- <div class="separador">
+            <img src="" alt="">
+            </div> --> 
+<!--******************************************************************************************************************************************************************-->
+        <!--COMIENZA CONTACTO | MICA-->
+        <section class="contacto">
+            <div class="img-contacto">
+                <img src="./assets/contacto.png" alt="">
+            </div>
+
+            <article class="contacto-a" id="contacto-a">
+            <h2><span class="barras">//</span>Contacto<span class="punto">.</span></h2>        
+            </article>
+
+            <form action="contacto.php" method="post"> <!--Confirmar si el metodo esta bien-->
+                    <div class="group">
+                    <label for="nombre"><span class="box">>Nombre:</span></label></div>
+                    <input id="nombre" name="nombre" type="text" minlength="3" autofocus required placeholder="Ej: Jon Snow">
+                    </div>
+
+                    <div>
+                    <label for="email"><span class="box">>Email:</span></label>
+                    <input id="email" name="email" type="email" minlength="3" required placeholder="Ej: thekinginthenorth@gmail.com">
+                    </div>
+
+                    <div>
+                    <label for="motivo"><span class="box">>Motivo de contacto:</span></label>
+                    <textarea type="text" id="motivo" name="motivo" minlength="3" required placeholder="Dejanos tu mensaje"></textarea>
+                    </div>
+
+                    <div>
+                    <input id="submit" name="submit" type="submit" value="->Enviar">
+                    </div>
+            </form>
+        </section>
+        <!--FINALIZA CONTACTO | MICA-->
+<!--******************************************************************************************************************************************************************-->
     <footer>
         <div class="logo">
             <img src="/assets/logo_pescar.png" alt="logo">
