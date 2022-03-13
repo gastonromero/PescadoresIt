@@ -401,7 +401,6 @@ header {
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 /* Comienza Footer*/  
 
-
 footer {
     display: flex;
     justify-content: space-between;
@@ -421,18 +420,26 @@ footer div:first-of-type {
     display: inline-block;
 }
 
+footer div .logo {
+    background-image: url("/assets/logo_pescar.png");
+    background-image: no-repeat;
+    height: 40px;
+    width: 200px;
+}
 footer div ul {
     text-decoration: none;
     list-style: none;
     align-items: center;
     align-items: initial;
-    
+}
+
+footer div:nth-child(2) {
+    margin-bottom: 35px;
 }
 
 footer div ul li:first-of-type{
     color: orange;
     text-transform: uppercase;
-    font-weight: bold;
     margin-bottom: 5px;
 }
 
@@ -440,7 +447,17 @@ footer div ul li a {
     font-family: 'IBM Plex Mono';
   
 }
-footer div ul li:first-of-type:hover {
+
+footer div ul li a:visited {
+    color: black;
+}
+footer div ul li:first-of-type a {
+    color:orange; 
+    font-weight: bold;
+ 
+}
+
+footer div ul li a:hover {
     color:blue;
 }
 
