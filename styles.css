@@ -215,6 +215,8 @@ header {
         
         .img-contacto img {
             height: 100px;
+            margin-top: 100px;
+            margin-bottom: 20px;
         }
         
         .barras {
@@ -233,6 +235,7 @@ header {
         
         .contacto-a h2 {
         /*Title SemiBold*/
+            margin-bottom: 60px;
             text-transform: uppercase;
             font-family: 'IBM Plex Mono';
             font-style: normal;
@@ -284,6 +287,7 @@ header {
             height:50px;
             cursor:pointer;
             margin-left: 250px;
+            margin-bottom: 60px;
 
             color: white;
             font-weight: 600;
