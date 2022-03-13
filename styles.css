@@ -285,9 +285,122 @@ header {
     margin-right: 100px;
     margin-bottom: 70px;
 }
-/*Termina formacion it*/
 
-/*Footer*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+      /*MICA CSS*/
+      main {
+        background-color: #1c1e27
+    }
+    
+    .img-contacto img {
+        height: 100px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .barras {
+        color: orangered;
+    }
+    
+    .punto {
+        color: blue;
+    }
+    
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contacto-a h2 {
+    /*Title SemiBold*/
+        margin-bottom: 60px;
+        text-transform: uppercase;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3em;
+        line-height: 62px;
+        color: #ffffff;
+    }
+
+    /*COMIENZO CON EL FORM*/
+    
+    form {
+        width:400px;
+    }
+    
+    input, textarea {
+        width:400px;
+        height:27px;
+        resize: none;
+        background:#ffffffc9; /*fondo de input*/
+        border: none;
+        border-radius: 5px;
+        padding:20px; /*Tamaño del box*/
+        font-size:1.2em;
+        font-family:'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        line-height: 21px;
+        text-align: left;
+        color:#000000;
+        margin-bottom: 15px;
+    }
+    
+    textarea {
+        height:200px;
+    }
+
+    input , textarea:focus {
+        outline: none; /*para que no marque los bordes cuando selecciono*/
+    }
+    
+    #submit {
+        padding: 10px;
+        background-color: rgb(255, 139, 6);
+        border: none;
+        border-radius: 5px;
+        width:150px;
+        height:50px;
+        cursor:pointer;
+        margin-left: 250px;
+        margin-bottom: 60px;
+
+        color: white;
+        font-weight: 600;
+        text-align: center;
+        line-height: 21px;
+    }
+
+    /*Modifiqué el cursor-hover*/
+    #submit:hover {
+        transition: all .2s ease-in-out;    
+        transform: scale(1.05);
+    }
+    
+    .box {
+        /* Parrafo SemiBold */
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 600;
+        font-size:1.2em; /*con esto cambias el tamaño de la letra*/
+        line-height: 21px;
+        color: #FFFFFF;
+        /* Box negro*/
+        background: #000000;
+        opacity: 0.75;
+        border-radius: 5px;
+        padding: 10px;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/* Comienza Footer*/  
+
 footer {
     display: flex;
     justify-content: space-between;
