@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pescadores It</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <header>
         <h1> Pescadores IT</h1>
+        <!-- Comienza sección Inicio (Gaston) -->
+        <div class="logo">
+            <img class="logo" src="/assets/logo_pescar.png" alt="logo">
+        </div>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#nosotros">Acerca de Nosotros</a></li>
                 <li><a href="#pescar">¿Qués es Pescar?</a></li>
@@ -18,56 +26,260 @@
                 <li><a href="#formacionPersonal">Formacion Personal</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
-        </nav></li>
+        </nav>
+        <a href="login.html"><button type="button" class="acceder">ACCEDER</button></a>
     </header>
-    <section id="inicio">
-    </section>
+    <div class="frase-header">
+        <p><span>“</span>si quieres quitarle el hambre a un hombre, dale un pez;</p>
+        <p>  pero si quieres que no
+            vuelva a tener hambre, enseñale a pescar<span class="punto-azul">.</span><span>”</span></p>
+            <div class="search-bar">
+                <input type="search" placeholder="Buscar...">
+                <a class="search"  href="#">
+                    <i class="fas fa-search"></i>
+                  </a>
+              </div>
+    </div>
+   <!-- Finaliza sección Inicio -->
     <main>
-        <article id="nosotros">
-        </article>
-        <article id="pescar">
+        <section class="noticias">
+            <div class="background-banner">
+                <img src="/assets/fondo.jpg" alt="background-banner">
+            </div>
+            <div>
+            </div>
+        </section>
+        <!--REVISAR ESTO, section o article-->
+        <section class="about-us">
+            <!-- (esto ya va en main, ms abajo esta) -->
+            <div class="icons-1">
+                <img src="/assets/Deco.png" alt="">
+            </div>
+            <article>
+                <div>
+                    <img src="/assets/acerca_de_nosotros.png" alt="">
+                </div>
+                <h2>//Acerca de nosotros.</h2>
+                <p></em>¡Hola futuro programador!</em>
+                    <!-- volver a leer uso de em (se usa diferente, semanticamente). Si es unicamente para algo visual de usa italic en css-->
+                    Muchas gracias por visitar nuestra pagina.</p>
+                <p> Somos un equipo de desarrolladores de la <em>Fundación Pescar</em> (¿Cómo? ¿No conoces la fundación
+                    aún? Cliquea acá para ver mas info sobre ella)
+                    que junto con <em>J.P. Morgan</em> y <em>Loma Negra</em>, nos brindaron las herramientas necesarias
+                    para poder estar interactuando con vos en este momento.
+                    Desarrollamos este proyecto con el fin de brindar a las personas las herramientas necesarias
+                    para poder insertarse laboralmente y dar sus primeros pasos en el mundo IT.
+                    Estamos muy contentos de que estés acá, esperamos nuestro contenido te sea útil y entretenido.</p>
+                <p>Si queres dejarnos algún comentario, te invitamos a ponerte en contacto con nosotros y responderemos
+                    gustosamente.</p>
+                </p>
+            </article>
+            <article class="linkedin">
+                <div class="logo-linkedin">
+                    <img src="/assets/LinkedIn_Logo 1.png" alt="">
+                </div>
+                <!-- COMPLETAR MICA -->
+            </article>
+        </section>
 
+        <article id="pescar">
+            <h2>// ¿Qué es Pescar?</h2>
+            <p>La Fundación Pescar es una organización sin fines de lucro que tiene como misión formar a personas de
+                escasos recursos económicos
+                para que puedan diseñar un proyecto de vida e insertarse en el mundo laboral. <br /> Promueve diversos
+                programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
+                formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
+                areas ( programación web, estética en general, atención al cliente, entre otras).</p>
+            <p>Promueve diversos programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
+                formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
+                areas ( programación web, estética en general, atención al cliente, entre otras).</p>
+            <p>Además de las herramientas que brinda para ayudarte, también ofrece a sus graduados un seguimiento de
+                2 años en su red de egresados para asegurar la empleabilidad, difunde búsquedas laborales y te acompaña
+                en tus proceso de postulación y selección.</p>
+            <div>
+                <img src="/assets/logo_pescar_2.png" alt="">
+            </div>
+            <a href="www.pescar.org.ar">www.pescar.org.ar</a>
+            <p>Fundación Pescar</p>
+            <input type="button" id="#clickhere" value="click here">
         </article>
-        <article id="form-it">
+        <!-- Comienza seccion formacion it (Julieta) -->
+        <section class="form-it">
+        <article class="formacion-it">
+            <div class="img-form">
+                <img src="./assets/formacion_it.png" alt="">
+            </div>
+            <h2><span class="barras">//</span> Formación IT<span class="punto"> .</span></h2>
+            <p>¡Todo trabajo implica habilidades y conocimientos necesarios para el puesto!</p>
+            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación IT, las cuales
+                <p>nos ayudaron
+                a nuestro aprendizaje.</p>
+            <p>¡Te invitamos a que las conozcas!</p>
         </article>
-        <article id="form-personal">
+        <article class="herramientas-it">
+            <h3>Herramientas <span class="flecha">--></span></h3>
+        <div class="icon-herramientas-it">
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad.png" alt="">
+                <p>aprende_jugando</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad (1).png" alt="">
+                <p>ejercicios_de_logica</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad (6).png" alt="">
+                <p>ejercicios_de_programación</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/folder.png" alt="">
+                <p>recursos</p>
+            </div>
+
+            <div class="items-herramientas">
+                <img src="./assets/gaming-pad (5).png" alt="">
+                <p>foros_de_ayuda</p>
+            </div>
+        </div>
+        <div class="separador">
+            <img src="./assets/separador_1.png" alt="">
+        </div>
+    </article>
+</section>
+<div class="separador1">
+    <img src="/assets/separador_1.png" alt="">
+</div>
+        <!-- Finaliza seccion formacion it -->
+        <!-- Comienza seccion formacion personal (Juli/Gaston) -->
+        <section class="form-personal">
+        <article class="formacion-p">
+            <div class="img-form">
+                <img src="/assets/formacion_personal.png" alt="">
+            </div>
+            <h2><span class="barras">//</span> Formación Personal<span class="punto"> .</span></h2>
+            <p>Conseguir un trabajo puede ser un largo proceso que conlleva dedicación y esfuerzo,</p> <p>por eso creemos
+                necesario conocer cuales son nuestras fortalezas o debilidades.</p>
+            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación Personal, las cuales nos</p>
+            <p>ayudaron a nuestro autoconocimiento así como también desenvolvernos de manera optima ante un</p>
+             <p>reclutador.</p>
+            <p>¡Te invitamos a que las conozcas!</p>
         </article>
-        <article id="contacto">
-        </article>
+        <article class="herramientas-personal">
+            <h3>Herramientas<span class="flecha"> --></span></h3>
+
+        <div class="icon-herramientas-personal">
+                <div class="icon-gaming-personal">
+                    <img src="./assets/gaming-pad.png" alt="">
+                    <p>aprende_jugando</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="/assets/gaming-pad (9).png" alt="">
+                    <p>armado_de_cv</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="./assets/folder.png" alt="">
+                    <p>recursos</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="./assets/computer.png" alt="">
+                    <p>emulador_de_entrevista</p>
+                </div>
+
+                <div class="icon-gaming-personal">
+                    <img src="./assets/gaming-pad (5).png" alt="">
+                    <p>foros_de_ayuda</p>
+                </div>
+        </div>
+    </article>
+</section>
+        <!-- Finaliza seccion formacion personal -->
+
+        <!-- Falta subir el separador con la flecha en el medio -->
+        <!-- <div class="separador">
+            <img src="" alt="">
+            </div> --> 
+<!--******************************************************************************************************************************************************************-->
+        <!--COMIENZA CONTACTO | MICA-->
+        <section class="contacto">
+            <div class="img-contacto">
+                <img src="./assets/contacto.png" alt="">
+            </div>
+
+            <article class="contacto-a" id="contacto-a">
+            <h2><span class="barras">//</span>Contacto<span class="punto">.</span></h2>        
+            </article>
+
+            <form action="contacto.php" method="post"> <!--Confirmar si el metodo esta bien-->
+                    <div class="group">
+                    <label for="nombre"><span class="box">>Nombre:</span></label></div>
+                    <input id="nombre" name="nombre" type="text" minlength="3" autofocus required placeholder="Ej: Jon Snow">
+                    </div>
+
+                    <div>
+                    <label for="email"><span class="box">>Email:</span></label>
+                    <input id="email" name="email" type="email" minlength="3" required placeholder="Ej: thekinginthenorth@gmail.com">
+                    </div>
+
+                    <div>
+                    <label for="motivo"><span class="box">>Motivo de contacto:</span></label>
+                    <textarea type="text" id="motivo" name="motivo" minlength="3" required placeholder="Dejanos tu mensaje"></textarea>
+                    </div>
+
+                    <div>
+                    <input id="submit" name="submit" type="submit" value="->Enviar">
+                    </div>
+            </form>
+        </section>
     </main>
+        <!--FINALIZA CONTACTO | MICA-->
+<!--******************************************************************************************************************************************************************-->
     <footer>
-        <p>Logo</p>
-        <p></p>
+        <div class="logo">
+            <img src="/assets/logo_pescar.png" alt="logo">
+        </div>
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de Nosotros</a></li>
-                <li><a href="#pescar"></a>¿Qués es Pescar?</a></li>
-                <li><a href="#contacto"></a>Contacto</a></li>
+                <li><a href="#nosotros">Acerca de Nosotros</a></li>
+                <li><a href="#pescar">¿Qué es Pescar?</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
+       </div>
+       <div> 
             <ul>
-                <li><a hrf="">Formación IT</a></li>
-                <li><a hrf="">Aprendé Jugando</a></li>
-                <li><a hrf="">Ejercicios de Lógica</a></li>
-                <li><a hrf="">Ejercicios de Programación</a></li>
-                <li><a hrf="">Recursos</a>/li>
-                <li><a hrf="">Foro de </a></li>
+                <li><a href="#formacionIt">Formación IT</a></li>
+                <li><a href="#">Aprendé Jugando</a></li>
+                <li><a href="#">Ejercicios de Lógica</a></li>
+                <li><a href="#">Ejercicios de Programación</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Foro de Ayuda</a></li>
             </ul>
+        </div>
+        <div> 
             <ul>
-                <li><a hrf="">Formación </a></li>
-                <li><a hrf="">Aprendé Jugando</a></li>
-                <li><a hrf="">Armado de CV</a></li>
-                <li><a hrf="">Emulador de Entrevistas</a></li>
-                <li><a hrf="">Recursos</a></li>
-                <li><a hrf="">Foro de Ayuda</a></li>
+                <li><a href="#formacionPersonal">Formación Personal</a></li>
+                <li><a href="#">Aprendé Jugando</a></li>
+                <li><a href="#">Armado de CV</a></li>
+                <li><a href="#">Emulador de Entrevistas</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Foro de Ayuda</a></li>
             </ul>
-            <ul>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">Linkedin</a></li>
-                <li><a href="">Youtube</a></li>
+        </div>
+        <div>
+             <ul id="redes">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Youtube</a></li>
             </ul>
         </div>
     </footer>
 </body>
-</html>
+
+</html> 
