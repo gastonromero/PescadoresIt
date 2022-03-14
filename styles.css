@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=IBM+Plex+Mono:wght@300;400&family=Roboto:wght@400;700&display=swap');
+:root {
+    --naranja-pescar: #FD7202;
+    --azul-pescar: #005CBD;
+    --index-background: #1c1e27;
+    --gris-pescar: rgba(255, 255, 255, 0.7);
+}
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
 
 h1 {
     display: none;
@@ -54,12 +59,12 @@ header {
 }
 
 .nav-links li a:hover {
-    color: orange
+    color: var(--naranja-pescar)
 }
 
 .acceder {
     padding: 9px 25px;
-    background-color: rgb(255, 139, 6);
+    background-color: var(--naranja-pescar);
     border: none;
     border-radius: 5px;
     height: 45px;
@@ -89,8 +94,12 @@ header {
     text-transform: uppercase;
 }
 
-.frase-header p span {
-    color: rgb(255, 139, 6)
+.comillas {
+    color: var(--naranja-pescar);
+}
+
+.punto-azul {
+    color: var(--azul-pescar);
 }
 
 .search-bar {
@@ -117,8 +126,8 @@ header {
     border: none;
     position: absolute;
     margin-left: -240px;
-    margin-top: 10px;
-    color: orangered
+    margin-top: 14px;
+    color: var(--naranja-pescar);
 }
 
 .background-banner img {
@@ -128,6 +137,7 @@ header {
 
 
 /*Termina sección Inicio */
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
 /* Comienza seccion formacion it*/
 
 .img-form img {
@@ -135,11 +145,11 @@ header {
 }
 
 .barras {
-    color: orange;
+    color: var(--naranja-pescar);
 }
 
 .punto {
-    color: blue;
+    color: var(--azul-pescar);
 }
 
 .form-it {
@@ -155,15 +165,23 @@ header {
 }
 
 .formacion-it h2 {
-   margin: 15px 0 40px 50px;
-   text-transform: uppercase;
-   font-size: 3em;
-   color: white;
-}
+        margin: 15px 0 40px 50px;
+        text-transform: uppercase;
+        font-family: 'IBM Plex Mono';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 3em;
+        line-height: 62px;
+        color: #ffffff;
+    }
 
 .formacion-it p {
     font-size: 1.2em;
     color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .formacion-it p:last-child {
@@ -171,8 +189,13 @@ header {
 }
 
 .flecha {
-    color: orange;
-    font-size: 2em;
+    color: var(--naranja-pescar);
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+
 }
 
 .herramientas-it {
@@ -191,7 +214,11 @@ header {
     text-transform: uppercase;
     margin-bottom: 5em;
     margin-left: 00px;
-    color: white;
+    color:rgba(255, 255, 255, 0.7);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
 }
 
 .separador {
@@ -213,7 +240,7 @@ header {
 
 .items-herramientas p {
     display: block;
-    color: orange;
+    color: var(--naranja-pescar);
     font-size: 1.3em;
 }
 
@@ -223,6 +250,7 @@ header {
 }
 
 /*Termina sección formación it */
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
 .form-personal {
     width: 100%;
@@ -237,15 +265,24 @@ header {
 }
 
 .formacion-p h2 {
+/*Title SemiBold*/
     margin: 15px 0 40px 50px;
     text-transform: uppercase;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
     font-size: 3em;
-    color: white;
- }
- 
- .formacion-p p {
+    line-height: 62px;
+    color: #ffffff;
+}
+
+.formacion-p p {
      font-size: 1.2em;
      color: white;
+     font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
  }
 
  .herramientas-personal h3 {
@@ -274,7 +311,7 @@ header {
 }
 
 .icon-herramientas-personal p {
-    color: orange;
+    color: var(--naranja-pescar);
     font-size: 1.3em;
 }
 
@@ -288,8 +325,9 @@ header {
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
-      /*MICA CSS*/
-      main {
+    /*MICA CSS*/
+    
+    main {
         background-color: #1c1e27
     }
     
@@ -298,15 +336,7 @@ header {
         margin-top: 100px;
         margin-bottom: 20px;
     }
-    
-    .barras {
-        color: orangered;
-    }
-    
-    .punto {
-        color: blue;
-    }
-    
+
     .contacto {
         display: flex;
         flex-direction: column;
@@ -360,7 +390,7 @@ header {
     
     #submit {
         padding: 10px;
-        background-color: rgb(255, 139, 6);
+        background-color: var(--naranja-pescar);
         border: none;
         border-radius: 5px;
         width:150px;
@@ -438,7 +468,7 @@ footer div:nth-child(2) {
 }
 
 footer div ul li:first-of-type{
-    color: orange;
+    color: var(--naranja-pescar);
     text-transform: uppercase;
     margin-bottom: 5px;
 }
@@ -452,13 +482,13 @@ footer div ul li a:visited {
     color: black;
 }
 footer div ul li:first-of-type a {
-    color:orange; 
+    color: var(--naranja-pescar);
     font-weight: bold;
  
 }
 
 footer div ul li a:hover {
-    color:blue;
+    color:var(--azul-pescar);
 }
 
 #redes li {
