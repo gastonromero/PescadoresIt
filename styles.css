@@ -153,28 +153,6 @@ header .frase-header p {
 /*******************************************************************************************************************************************************************/
 
 /*Comienza seccion que es pescar*/
-/*
-.formacion-p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 950px
-
-
-.formacion-p h2 {
-    margin: 15px 0 40px 50px;
-    text-transform: uppercase;
-    font-size: 3em;
-    color: white;
- }
- 
- .formacion-p p {
-     font-size: 1.2em;
-     color: white;
- }
-
- */
-
 .que-es-pescar {
     max-width: 1920px;
     display: flex; 
@@ -544,11 +522,12 @@ footer div:first-of-type {
     display: inline-block;
 }
 
-footer div .logo {
+footer .logo {
     background-image: url("/assets/logo_pescar.png");
-    background-image: no-repeat;
-    height: 40px;
-    width: 200px;
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 230px;
+
 }
 footer div ul {
     text-decoration: none;
@@ -569,7 +548,6 @@ footer div ul li:first-of-type{
 
 footer div ul li a {
     font-family: 'IBM Plex Mono';
-  
 }
 
 footer div ul li a:visited {
@@ -612,6 +590,33 @@ footer div ul li a:hover {
 }
 #redes li:last-of-type {
     background-image: url("assets/icono-youtube.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+#redes li:first-of-type:hover{
+    background-image: url("assets/icono-twitter-hover.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+}
+#redes li:nth-of-type(2):hover {
+    background-image: url("assets/icono-fb-hover.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+}
+#redes li:nth-of-type(3):hover {
+    background-image: url("assets/icono-ln-hover.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48;
+}
+#redes li:last-of-type:hover {
+    background-image: url("assets/icono-youtube-hover.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
