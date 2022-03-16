@@ -14,10 +14,14 @@ h1 {
 
 h2 {
     color: white;
+    margin: 15px 0 40px 50px;
+    text-transform: uppercase;
+    font-size: 3em;
 }
 
 p { 
     color: white;
+    font-size: 1.2em;
 }
 
 main {
@@ -146,6 +150,110 @@ header .frase-header p {
 
 
 /*Termina sección Inicio */
+/*******************************************************************************************************************************************************************/
+
+/*Comienza seccion que es pescar*/
+/*
+.formacion-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 950px
+
+
+.formacion-p h2 {
+    margin: 15px 0 40px 50px;
+    text-transform: uppercase;
+    font-size: 3em;
+    color: white;
+ }
+ 
+ .formacion-p p {
+     font-size: 1.2em;
+     color: white;
+ }
+
+ */
+
+.que-es-pescar {
+    max-width: 1920px;
+    display: flex; 
+    flex-direction: column;
+}
+
+#sobrepescar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin-left: 950px; 
+    text-align: center;
+}
+
+#sobrepescar p {
+    margin-bottom: 0.7em;
+}
+
+.que-es-pescar .fundacion-pescar {
+    display: flex;
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+
+
+.que-es-pescar .fundacion-pescar div:first-child{
+    width: 20%;
+    display: block;
+    text-align: center;
+    background-color: #ffd147;
+    border-radius: 6px;
+    border: 3px solid black;
+    box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-left: 22em;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+    padding: 20px 0 10px 0;
+    padding-bottom: 5em;
+    margin-left: 22em;
+}
+
+.fundacion-pescar div:first-of-type > div {
+    width: 60% !important;
+    background-color: white !important;
+    border:2px solid black !important;
+    box-shadow: none !important;
+    padding: 15px  0 15px 0 !important;
+    margin: auto !important;
+}
+
+.fundacion-pescar div:first-of-type p {
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 1.2em 0 1.2em 0;
+}
+
+.fundacion-pescar div:first-of-type a:nth-child(3) {
+    color: black;
+    background-color: #25fd02;
+    border: 3px solid black;
+    border-radius: 6px;
+    padding: 00.7em 2em 0.7em 2em;
+    font-size: 18x;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.fundacion-pescar div:last-child {
+    margin-left: 1.5em;
+    margin-top: 3em;
+}
+
+
+
+
+ /*Termina seccion que es pescar*/
+/*******************************************************************************************************************************************************************/
 /* Comienza seccion formacion it*/
 
 .img-form img {
@@ -241,17 +349,16 @@ header .frase-header p {
 }
 
 /*Termina sección formación it */
-
+/*******************************************************************************************************************************************************************/
 .form-personal {
     width: 100%;
-    background-color:  #1c1e27;
 }
-
 .formacion-p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 950px
+    margin-left: 950px;
+
 }
 
 .formacion-p h2 {
