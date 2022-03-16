@@ -12,7 +12,6 @@
 
 <body>
     <header>
-<!--******************************************************************************************************************************************************************-->
         <h1> Pescadores IT</h1>
         <!-- Comienza sección Inicio (Gaston) -->
         <div class="logo">
@@ -22,7 +21,7 @@
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#nosotros">Acerca de Nosotros</a></li>
-                <li><a href="#pescar">¿Qué es Pescar?</a></li>
+                <li><a href="#sobrepescar">¿Qué es Pescar?</a></li>
                 <li><a href="#formacionIt">Formacion IT</a></li>
                 <li><a href="#formacionPersonal">Formacion Personal</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -31,19 +30,17 @@
         <a href="login.html"><button type="button" class="acceder">ACCEDER</button></a>
     </header>
     <div class="frase-header">
-        <p><span class="comillas">“</span>si quieres quitarle el hambre a un hombre<span class="punto-azul">,</span> dale un pez<span class="punto-azul">;</span></p>
+        <p><span>“</span>si quieres quitarle el hambre a un hombre, dale un pez;</p>
         <p>  pero si quieres que no
-            vuelva a tener hambre<span class="punto-azul">,</span> enseñale a pescar<span class="punto-azul">.</span><span class="comillas">”</span></p>
+            vuelva a tener hambre, enseñale a pescar<span class="punto-azul">.</span><span>”</span></p>
             <div class="search-bar">
                 <input type="search" placeholder="Buscar...">
                 <a class="search"  href="#">
                     <i class="fas fa-search"></i>
-                </a>
-            </div>
+                  </a>
+              </div>
     </div>
-    <!-- Finaliza sección Inicio -->
-<!--******************************************************************************************************************************************************************-->
-<!--carrousel-->
+   <!-- Finaliza sección Inicio -->
     <main>
         <section class="noticias">
             <div class="background-banner">
@@ -52,9 +49,9 @@
             <div>
             </div>
         </section>
-<!--******************************************************************************************************************************************************************-->
-<!--Comienza Mica "Acerca de Nosotros"-->
+        <!--REVISAR ESTO, section o article-->
         <section class="about-us">
+            <!-- (esto ya va en main, ms abajo esta) -->
             <div class="icons-1">
                 <img src="/assets/Deco.png" alt="">
             </div>
@@ -64,6 +61,7 @@
                 </div>
                 <h2>//Acerca de nosotros.</h2>
                 <p></em>¡Hola futuro programador!</em>
+                    <!-- volver a leer uso de em (se usa diferente, semanticamente). Si es unicamente para algo visual de usa italic en css-->
                     Muchas gracias por visitar nuestra pagina.</p>
                 <p> Somos un equipo de desarrolladores de la <em>Fundación Pescar</em> (¿Cómo? ¿No conoces la fundación
                     aún? Cliquea acá para ver mas info sobre ella)
@@ -80,128 +78,135 @@
                 <div class="logo-linkedin">
                     <img src="/assets/LinkedIn_Logo 1.png" alt="">
                 </div>
+                <!-- COMPLETAR MICA -->
             </article>
         </section>
-<!--******************************************************************************************************************************************************************-->
-<!--Comienza Deb "Que es Pescar"-->
-        <article id="pescar">
-            <h2>// ¿Qué es Pescar?</h2>
-            <p>La Fundación Pescar es una organización sin fines de lucro que tiene como misión formar a personas de
-                escasos recursos económicos
-                para que puedan diseñar un proyecto de vida e insertarse en el mundo laboral. <br /> Promueve diversos
-                programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
-                formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
-                areas ( programación web, estética en general, atención al cliente, entre otras).</p>
-            <p>Promueve diversos programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
-                formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
-                areas ( programación web, estética en general, atención al cliente, entre otras).</p>
-            <p>Además de las herramientas que brinda para ayudarte, también ofrece a sus graduados un seguimiento de
-                2 años en su red de egresados para asegurar la empleabilidad, difunde búsquedas laborales y te acompaña
-                en tus proceso de postulación y selección.</p>
-            <div>
-                <img src="/assets/logo_pescar_2.png" alt="">
+        <section class="que-es-pescar"> 
+            <article id="sobrepescar">
+                <img src="./assets/que-es-pescar.png" alt="icono seccion que es pescar">
+                <h2><span class="barras">//</span>¿Qué es Pescar?<span class="punto">.</span></h2>
+                <p>La Fundación Pescar es una organización sin fines de lucro que tiene como misión formar a personas de
+                    escasos recursos económicos para que puedan diseñar un proyecto de vida e insertarse en el mundo laboral.<br /> Promueve diversos
+                    programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
+                    formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
+                    areas ( programación web, estética en general, atención al cliente, entre otras).</p>
+                <p>Promueve diversos programas de “Centros Pescar” los cuales brindan capacitaciones en el área de
+                    formación personal (habilidades socioemocionales) y en la formación técnico-profesional en diferentes
+                    areas ( programación web, estética en general, atención al cliente, entre otras).</p>
+                <p>Además de las herramientas que brinda para ayudarte, también ofrece a sus graduados un seguimiento de
+                    2 años en su red de egresados para asegurar la empleabilidad, difunde búsquedas laborales y te acompaña
+                    en tus proceso de postulación y selección.</p>
+            </article>
+            <div class="fundacion-pescar"> 
+                <div>
+                    <div>
+                        <img src="/assets/logo_pescar.png" alt="logo fundacion pescar">
+                    </div>
+                   <!-- <a href="www.pescar.org.ar">www.pescar.org.ar</a>-->
+                    <p>Fundación Pescar</p>
+                    <a href="www.pescar.org.ar">Saber más</a>
+                </div>
+                <div>
+                    <img src="./assets/flecha-curva-blanca.png" alt="decoracion flecha curva blanca">  
+                </div>
             </div>
-            <a href="www.pescar.org.ar">www.pescar.org.ar</a>
-            <p>Fundación Pescar</p>
-            <input type="button" id="#clickhere" value="click here">
-        </article>
-<!--******************************************************************************************************************************************************************-->
-<!-- Comienza seccion formacion it (Julieta) -->
+        </section>
+        
+        <!-- Comienza seccion formacion it (Julieta) -->
         <section class="form-it">
-        <article class="formacion-it">
-            <div class="img-form">
-                <img src="./assets/formacion_it.png" alt="">
-            </div>
-            <h2><span class="barras">//</span>Formación IT<span class="punto">.</span></h2>
-            <p>¡Todo trabajo implica habilidades y conocimientos necesarios para el puesto!</p>
-            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación IT, las cuales
-                <p>nos ayudaron
-                a nuestro aprendizaje.</p>
-            <p>¡Te invitamos a que las conozcas!</p>
-        </article>
-        <article class="herramientas-it">
-            <h3>Herramientas<span class="flecha">--></span></h3>
-        <div class="icon-herramientas-it">
-            <div class="items-herramientas">
-                <img src="./assets/gaming-pad.png" alt="">
-                <p>aprende_jugando</p>
-            </div>
-
-            <div class="items-herramientas">
-                <img src="./assets/gaming-pad (1).png" alt="">
-                <p>ejercicios_de_logica</p>
-            </div>
-
-            <div class="items-herramientas">
-                <img src="./assets/gaming-pad (6).png" alt="">
-                <p>ejercicios_de_programación</p>
-            </div>
-
-            <div class="items-herramientas">
-                <img src="./assets/folder.png" alt="">
-                <p>recursos</p>
-            </div>
-
-            <div class="items-herramientas">
-                <img src="./assets/gaming-pad (5).png" alt="">
-                <p>foros_de_ayuda</p>
-            </div>
-        </div>
-        <div class="separador">
-            <img src="./assets/separador_1.png" alt="">
-        </div>
-    </article>
-</section>
-<div class="separador1">
-    <img src="/assets/separador_1.png" alt="">
-</div>
-        <!-- Finaliza seccion formacion it -->
-<!--******************************************************************************************************************************************************************-->
-        <!-- Comienza seccion formacion personal (Juli/Gaston) -->
-        <section class="form-personal">
-        <article class="formacion-p">
-            <div class="img-form">
-                <img src="/assets/formacion_personal.png" alt="">
-            </div>
-            <h2><span class="barras">//</span>Formación Personal<span class="punto">.</span></h2>
-            <p>Conseguir un trabajo puede ser un largo proceso que conlleva dedicación y esfuerzo,</p> <p>por eso creemos
-                necesario conocer cuales son nuestras fortalezas o debilidades.</p>
-            <p>Estas son algunas herramientas que podes encontrar en la sección de Formación Personal, las cuales nos</p>
-            <p>ayudaron a nuestro autoconocimiento así como también desenvolvernos de manera optima ante un</p>
-            <p>reclutador.</p>
-            <p>¡Te invitamos a que las conozcas!</p>
-        </article>
-        <article class="herramientas-personal">
-            <h3>Herramientas<span class="flecha"> --></span></h3>
-
-        <div class="icon-herramientas-personal">
-                <div class="icon-gaming-personal">
+            <article class="formacion-it">
+                <div class="img-form">
+                    <img src="./assets/formacion_it.png" alt="">
+                </div>
+                <h2><span class="barras">//</span> Formación IT<span class="punto">.</span></h2>
+                <p>¡Todo trabajo implica habilidades y conocimientos necesarios para el puesto!</p>
+                <p>Estas son algunas herramientas que podes encontrar en la sección de Formación IT, las cuales
+                    <p>nos ayudaron
+                    a nuestro aprendizaje.</p>
+                <p>¡Te invitamos a que las conozcas!</p>
+            </article>
+            <article class="herramientas-it">
+                <h3>Herramientas <span class="flecha">--></span></h3>
+            <div class="icon-herramientas-it">
+                <div class="items-herramientas">
                     <img src="./assets/gaming-pad.png" alt="">
                     <p>aprende_jugando</p>
                 </div>
 
-                <div class="icon-gaming-personal">
-                    <img src="/assets/gaming-pad (9).png" alt="">
-                    <p>armado_de_cv</p>
+                <div class="items-herramientas">
+                    <img src="./assets/gaming-pad (1).png" alt="">
+                    <p>ejercicios_de_logica</p>
                 </div>
 
-                <div class="icon-gaming-personal">
+                <div class="items-herramientas">
+                    <img src="./assets/gaming-pad (6).png" alt="">
+                    <p>ejercicios_de_programación</p>
+                </div>
+
+                <div class="items-herramientas">
                     <img src="./assets/folder.png" alt="">
                     <p>recursos</p>
                 </div>
 
-                <div class="icon-gaming-personal">
-                    <img src="./assets/computer.png" alt="">
-                    <p>emulador_de_entrevista</p>
-                </div>
-
-                <div class="icon-gaming-personal">
+                <div class="items-herramientas">
                     <img src="./assets/gaming-pad (5).png" alt="">
                     <p>foros_de_ayuda</p>
                 </div>
-        </div>
-    </article>
-</section>
+            </div>
+            <div class="separador">
+                <img src="./assets/separador_1.png" alt="">
+            </div>
+            </article>
+        </section>
+<div class="separador1">
+    <img src="/assets/separador_1.png" alt="">
+</div>
+        <!-- Finaliza seccion formacion it -->
+        <!-- Comienza seccion formacion personal (Juli/Gaston) -->
+        <section class="form-personal">
+            <article class="formacion-p">
+                <div class="img-form">
+                    <img src="/assets/formacion_personal.png" alt="">
+                </div>
+                <h2><span class="barras">//</span> Formación Personal<span class="punto"> .</span></h2>
+                <p>Conseguir un trabajo puede ser un largo proceso que conlleva dedicación y esfuerzo,</p> <p>por eso creemos
+                    necesario conocer cuales son nuestras fortalezas o debilidades.</p>
+                <p>Estas son algunas herramientas que podes encontrar en la sección de Formación Personal, las cuales nos</p>
+                <p>ayudaron a nuestro autoconocimiento así como también desenvolvernos de manera optima ante un</p>
+                <p>reclutador.</p>
+                <p>¡Te invitamos a que las conozcas!</p>
+            </article>
+            <article class="herramientas-personal">
+                <h3>Herramientas<span class="flecha"> --></span></h3>
+
+                <div class="icon-herramientas-personal">
+                    <div class="icon-gaming-personal">
+                        <img src="./assets/gaming-pad.png" alt="">
+                        <p>aprende_jugando</p>
+                    </div>
+
+                    <div class="icon-gaming-personal">
+                        <img src="/assets/gaming-pad (9).png" alt="">
+                        <p>armado_de_cv</p>
+                    </div>
+
+                    <div class="icon-gaming-personal">
+                        <img src="./assets/folder.png" alt="">
+                        <p>recursos</p>
+                    </div>
+
+                    <div class="icon-gaming-personal">
+                        <img src="./assets/computer.png" alt="">
+                        <p>emulador_de_entrevista</p>
+                    </div>
+
+                    <div class="icon-gaming-personal">
+                        <img src="./assets/gaming-pad (5).png" alt="">
+                        <p>foros_de_ayuda</p>
+                    </div>
+                </div>
+            </article>
+         </section>
         <!-- Finaliza seccion formacion personal -->
 
         <!-- Falta subir el separador con la flecha en el medio -->
@@ -210,7 +215,7 @@
             </div> --> 
 <!--******************************************************************************************************************************************************************-->
         <!--COMIENZA CONTACTO | MICA-->
-        <section class="contacto">
+        <section class="contacto" id="ancla-contacto">
             <div class="img-contacto">
                 <img src="./assets/contacto.png" alt="">
             </div>
@@ -243,20 +248,18 @@
     </main>
         <!--FINALIZA CONTACTO | MICA-->
 <!--******************************************************************************************************************************************************************-->
-        <!--COMIENZA DEB-->
     <footer>
         <div class="logo">
-            <img src="/assets/logo_pescar.png" alt="logo">
         </div>
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#nosotros">Acerca de Nosotros</a></li>
-                <li><a href="#pescar">¿Qué es Pescar?</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#sobrepescar">¿Qué es Pescar?</a></li>
+                <li><a href="#ancla-contacto">Contacto</a></li>
             </ul>
-        </div>
-        <div> 
+       </div>
+       <div> 
             <ul>
                 <li><a href="#formacionIt">Formación IT</a></li>
                 <li><a href="#">Aprendé Jugando</a></li>
@@ -277,7 +280,7 @@
             </ul>
         </div>
         <div>
-            <ul id="redes">
+             <ul id="redes">
                 <li><a href="#">Twitter</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Linkedin</a></li>
@@ -287,4 +290,4 @@
     </footer>
 </body>
 
-</html>
+</html> 
