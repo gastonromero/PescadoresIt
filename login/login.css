@@ -105,7 +105,7 @@ h2 {
 
 .form__container {
    background-color: white;
-   opacity: calc(0.8);
+   opacity: calc(0.9);
    height: 505px;
    width: 500px;
    display: flex;
@@ -121,7 +121,6 @@ h2 {
     height: 40px;
     margin: 0 25px 10px 25px;
     border-radius: 12.5px;
-
 }
 
 
@@ -175,6 +174,8 @@ h2 {
     margin: 25px 0;
 }
 
+
+
 /*footer*/
 
 footer {
@@ -182,10 +183,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     max-width: 1920px;
-    height: 200px;
+    height: 160px;
     margin-right: 100px;
     margin-left: 100px;
-    margin-top: -20px;
 }
 
 footer div {
@@ -197,7 +197,7 @@ footer div:first-of-type {
 }
 
 footer div .logo {
-    background-image: url("/assets/logo_pescar_2.png");
+    background-image: url("/assets/logo_pescar.png");
     background-image: no-repeat;
     height: 40px;
     width: 200px;
@@ -221,7 +221,6 @@ footer div ul li:first-of-type{
 
 footer div ul li a {
     font-family: 'IBM Plex Mono';
-  
 }
 
 footer div ul li a:visited {
@@ -230,7 +229,6 @@ footer div ul li a:visited {
 footer div ul li:first-of-type a {
     color: var(--naranja-pescar);
     font-weight: bold;
- 
 }
 
 footer div ul li a:hover {
@@ -276,4 +274,3 @@ footer div ul li a:hover {
     display: block;
 }
 
-/*Finaliza footer*/
