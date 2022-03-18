@@ -24,13 +24,30 @@
         </nav>
         <a href="/login/login.html"><button type="button" class="acceder">ACCEDER</button></a>
     </header>
-    <div class="background-banner">
-        <img src="/assets/fondo.jpg" alt="background-banner">
-    </div>
+    <form class="form">
+        <div class="form__container">
+           <h2>¡Bienvenido nuevamente!</h2>
+           <div class="form__group">
+               <input type="text" id="mame" class="form__input" placeholder="Email">
+               <label for="name" class="form__label"></label>
+               <input type="password" id="password" class="form__input" placeholder="Contraseña">
+               <label for="password" class="form__label"></label>
+           </div>
+           <p class="forget">¿Olvidaste tu contraseña?</p>
+           <button class="iniciar">Iniciar sesión</button>
+           <p class="continuar">o continuar con...</p>
+           <div class="boton__redes">
+            <button class="gmail">G mail</button>
+            <button class="linkedin">Linkedin</button>
+           </div>
+           <p class="cuenta">¿No tenes una cuenta?</p>
+           <button class="crear__cuenta">Crear una cuenta</button>
+       </div>
+    </form>
+    
     <footer>
-        <div class="logo">
-            <img src="/assets/logo_pescar.png" alt="logo">
-        </div>
+        
+
         <div>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
