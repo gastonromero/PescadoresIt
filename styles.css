@@ -50,8 +50,8 @@ header {
     font-family: 'IBM Plex Mono', monospace;
 }
 .nav-links li:hover {
-   transition: all .2s ease-in-out;
-   transform: scale(1.05);
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
 }
 
 .nav-links li a {
@@ -75,8 +75,8 @@ header {
 }
 
 .acceder:hover {
-   transition: all .2s ease-in-out;
-   transform: scale(1.05);
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
 }
 
 .frase-header {
@@ -137,6 +137,138 @@ header {
 
 
 /*Termina sección Inicio */
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*COMIENZA MICA CSS*/
+
+/* Article Acerca-de-nosotros */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 900px;
+}
+
+.img-about-us img {
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.img-about-us{
+    text-align: center;
+}
+
+.about-us-a h2 {
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 62px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: underline var(--naranja-pescar);
+}
+
+.link:hover {
+    color: var(--naranja-pescar);
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Article LinkedIn */
+
+.linkedin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-linkedin img {
+    height: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.link-2 {
+    color: #ffffff;
+}
+
+.link-2:hover {
+    color: var(--naranja-pescar);
+}
+
+.linkedin-debora {
+    display:inline-flex;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.linkedin-debora img {
+    margin-right: 20px;
+    height: 80px;
+}
+
+.linkedin-gaston {
+    display:inline-flex;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.linkedin-gaston img {
+    margin-right: 20px;
+    height: 80px;
+}
+
+.linkedin-julieta {
+    display:inline-flex;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.linkedin-julieta img {
+    margin-right: 20px;
+    height: 80px;
+}
+
+.linkedin-micaela {
+    display:inline-flex;
+    vertical-align: middle;
+}
+
+.linkedin-micaela img {
+    margin-right: 20px;
+    height: 80px;
+}
+
+/* Separador */
+.separador-1 img {
+    height: 460px;
+    display: flex;
+}
+
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 /* Comienza seccion formacion it*/
 
@@ -424,7 +556,7 @@ header {
         opacity: 0.75;
         border-radius: 5px;
         padding: 10px;
-        display: block;
+        display:inline-block;
         margin-bottom: 15px;
     }
 
