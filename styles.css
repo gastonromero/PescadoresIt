@@ -221,7 +221,7 @@ header {
 }
 
 .linkedin-debora {
-    display:inline-flex;
+    display:flex;
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -232,7 +232,7 @@ header {
 }
 
 .linkedin-gaston {
-    display:inline-flex;
+    display:flex;
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -243,7 +243,7 @@ header {
 }
 
 .linkedin-julieta {
-    display:inline-flex;
+    display:flex;
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -254,7 +254,7 @@ header {
 }
 
 .linkedin-micaela {
-    display:inline-flex;
+    display:flex;
     vertical-align: middle;
 }
 
