@@ -391,7 +391,7 @@ header {
     width: 18%;
     display: block;
     text-align: center;
-    background-color: #ffd147;
+    background-color: var(--naranja-pescar);
     border-radius: 6px;
     border: 3px solid black;
     box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.3);
@@ -420,19 +420,29 @@ header {
 }
 
 .fundacion-pescar div:first-of-type a:nth-child(3) {
-    color: black;
-    background-color: #25fd02;
-    border: 3px solid black;
+    color: white;
+    background-color: #1f288c;
+    border: 2px solid black;
     border-radius: 6px;
     padding: 00.7em 2em 0.7em 2em;
     font-size: 18x;
     font-weight: bold;
     font-family: roboto;
 }
+.fundacion-pescar div:first-of-type a:nth-child(3):hover {
+    color: var(--naranja-pescar);
+    background-color: var(--azul-pescar);
+    border: 2px solid var(--naranja-pescar);
+ 
+}
 
 .fundacion-pescar div:last-child {
     margin-left: 1.5em;
     margin-top: 3em;
+}
+
+.que-es-pescar .fundacion-pescar a {
+    color: white;
 }
 
 /*Termina seccion que es pescar*/
