@@ -388,23 +388,23 @@ header {
 }
 
 .que-es-pescar .fundacion-pescar div:first-child{
-    width: 20%;
+    width: 18%;
     display: block;
     text-align: center;
     background-color: #ffd147;
     border-radius: 6px;
     border: 3px solid black;
-    box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.3);
     margin-left: 22em;
     margin-top: 0.2em;
     margin-bottom: 1em;
-    padding: 20px 0 10px 0;
-    padding-bottom: 5em;
+    padding-top: 3em;
+    padding-bottom: 4.5em;
     margin-left: 22em;
 }
 
 .fundacion-pescar div:first-of-type > div {
-    width: 60% !important;
+    width: 70% !important;
     background-color: white !important;
     border:2px solid black !important;
     box-shadow: none !important;
@@ -682,12 +682,14 @@ footer div:first-of-type {
     display: inline-block;
 }
 
-footer div .logo {
+
+footer .logo {
     background-image: url("/assets/logo_pescar.png");
-    background-image: no-repeat;
-    height: 40px;
-    width: 200px;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 230px;
 }
+
 footer div ul {
     text-decoration: none;
     list-style: none;
@@ -749,6 +751,32 @@ footer div ul li a:hover {
 }
 #redes li:last-of-type {
     background-image: url("assets/icono-youtube.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+#redes li:first-of-type:hover{
+    background-image: url("assets/icono-twitter-hover.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+}
+#redes li:nth-of-type(2):hover {
+    background-image: url("assets/icono-fb-hover.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+}
+#redes li:nth-of-type(3):hover {
+    background-image: url("assets/icono-ln-hover.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48;
+}
+#redes li:last-of-type:hover {
+    background-image: url("assets/icono-youtube-hover.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
