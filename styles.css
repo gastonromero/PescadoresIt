@@ -151,6 +151,20 @@ h1 {
     display: flex;
 }
 
+/*Separador final*/
+.linea1 {
+    border: 2px solid black;
+    margin-bottom: 8px;
+}
+
+.linea2 {
+    border: 10px solid black;
+}
+
+.separador3 {
+    margin-top: 130px;;
+}
+
 /*--------------------------------------------------------------------------*/
 /*Comienza inicio*/
 
@@ -391,10 +405,10 @@ header {
     width: 18%;
     display: block;
     text-align: center;
-    background-color: var(--naranja-pescar);
-    border-radius: 6px;
-    border: 3px solid black;
-    box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.3);
+    background-color: #FFD147;
+    border-radius: 5px;
+    border: 5px solid black;
+    box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.87);
     margin-left: 22em;
     margin-top: 0.2em;
     margin-bottom: 1em;
@@ -406,9 +420,10 @@ header {
 .fundacion-pescar div:first-of-type > div {
     width: 70% !important;
     background-color: white !important;
-    border:2px solid black !important;
+    border:6px solid black !important;
+    border-radius: 10px;
     box-shadow: none !important;
-    padding: 15px  0 15px 0 !important;
+    padding: 7px  0 7px 0 !important;
     margin: auto !important;
 }
 
@@ -417,23 +432,23 @@ header {
     font-size: 28px;
     font-weight: bold;
     margin: 1.2em 0 1.2em 0;
+    font-family: 'IBM Plex Mono';
 }
 
 .fundacion-pescar div:first-of-type a:nth-child(3) {
-    color: white;
-    background-color: #1f288c;
-    border: 2px solid black;
-    border-radius: 6px;
-    padding: 00.7em 2em 0.7em 2em;
-    font-size: 18x;
+    color: black;
+    background-color: #25FD02;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 00.3em 1em 0.3em 1em;
+    font-size: 18px;
     font-weight: bold;
-    font-family: roboto;
+    font-family: 'IBM Plex Mono';
 }
 .fundacion-pescar div:first-of-type a:nth-child(3):hover {
     color: var(--naranja-pescar);
-    background-color: var(--azul-pescar);
-    border: 2px solid var(--naranja-pescar);
- 
+    background-color: white;
+    border: 6px solid var(--naranja-pescar);
 }
 
 .fundacion-pescar div:last-child {
@@ -540,7 +555,7 @@ header {
     margin-left: 950px
 }
 
- .herramientas-personal h3 {
+.herramientas-personal h3 {
     text-transform: uppercase;
     margin-bottom: 5em;
     margin-right: 580px;
@@ -577,6 +592,7 @@ header {
     margin-right: 100px;
     margin-bottom: 70px;
 }
+
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -670,6 +686,7 @@ header {
         display:inline-block;
         margin-bottom: 15px;
     }
+
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 /* Comienza Footer*/  
