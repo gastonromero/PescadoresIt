@@ -65,6 +65,7 @@ h1 {
     line-height: 62px;
     color: #ffffff;
 }
+
 .formacion-it h2 {
     margin: 15px 0 40px 50px;
     text-transform: uppercase;
@@ -85,7 +86,7 @@ h1 {
     font-size: 3em;
     line-height: 62px;
     color: #ffffff;
-    }
+}
 
 .contacto-a h2 {
     margin-bottom: 60px;
@@ -96,7 +97,7 @@ h1 {
     font-size: 3em;
     line-height: 62px;
     color: #ffffff;
-    }
+}
 
 /*Paragraph*/
 
@@ -162,7 +163,8 @@ h1 {
 }
 
 .separador3 {
-    margin-top: 130px;;
+    margin-top: 130px;
+    ;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -199,6 +201,7 @@ header {
     font-size: 17px;
     font-family: 'IBM Plex Mono', monospace;
 }
+
 .nav-links li:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.05);
@@ -247,7 +250,7 @@ header {
 .search-bar {
     position: absolute;
     right: 0;
-    margin-right:35px;
+    margin-right: 35px;
     margin-top: 5px;
 }
 
@@ -263,7 +266,7 @@ header {
     outline: none;
 }
 
-.search i{
+.search i {
     height: 20px;
     border: none;
     position: absolute;
@@ -295,7 +298,7 @@ header {
     margin-bottom: 20px;
 }
 
-.img-about-us{
+.img-about-us {
     text-align: center;
 }
 
@@ -331,7 +334,7 @@ header {
 }
 
 .linkedin-debora {
-    display:flex;
+    display: flex;
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -342,7 +345,7 @@ header {
 }
 
 .linkedin-gaston {
-    display:flex;
+    display: flex;
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -353,7 +356,7 @@ header {
 }
 
 .linkedin-julieta {
-    display:flex;
+    display: flex;
     vertical-align: middle;
     margin-bottom: 20px;
 }
@@ -364,7 +367,7 @@ header {
 }
 
 .linkedin-micaela {
-    display:flex;
+    display: flex;
     vertical-align: middle;
 }
 
@@ -378,7 +381,7 @@ header {
 
 .que-es-pescar {
     max-width: 1920px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
 }
 
@@ -387,7 +390,7 @@ header {
     flex-direction: column;
     align-items: center;
     width: 800px;
-    margin-left: 950px; 
+    margin-left: 950px;
     text-align: center;
 }
 
@@ -401,7 +404,7 @@ header {
     margin-top: 2em;
 }
 
-.que-es-pescar .fundacion-pescar div:first-child{
+.que-es-pescar .fundacion-pescar div:first-child {
     width: 18%;
     display: block;
     text-align: center;
@@ -417,13 +420,13 @@ header {
     margin-left: 22em;
 }
 
-.fundacion-pescar div:first-of-type > div {
+.fundacion-pescar div:first-of-type>div {
     width: 70% !important;
     background-color: white !important;
-    border:6px solid black !important;
+    border: 6px solid black !important;
     border-radius: 10px;
     box-shadow: none !important;
-    padding: 7px  0 7px 0 !important;
+    padding: 7px 0 7px 0 !important;
     margin: auto !important;
 }
 
@@ -431,7 +434,7 @@ header {
     color: black;
     font-size: 28px;
     font-weight: bold;
-    margin: 1.2em 0 1.2em 0;
+    margin: 1.2em 0 2em 0;
     font-family: 'IBM Plex Mono';
 }
 
@@ -445,6 +448,7 @@ header {
     font-weight: bold;
     font-family: 'IBM Plex Mono';
 }
+
 .fundacion-pescar div:first-of-type a:nth-child(3):hover {
     color: var(--naranja-pescar);
     background-color: white;
@@ -470,7 +474,7 @@ header {
 
 .form-it {
     width: 100%;
-    background-color:  #1c1e27
+    background-color: #1c1e27
 }
 
 .formacion-it {
@@ -510,7 +514,7 @@ header {
     text-transform: uppercase;
     margin-bottom: 5em;
     margin-left: 00px;
-    color:rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.7);
     font-family: 'IBM Plex Mono';
     font-style: normal;
     font-weight: 600;
@@ -518,7 +522,8 @@ header {
 }
 
 .separador {
-    display: none;  /*reubicar despues*/
+    display: none;
+    /*reubicar despues*/
 }
 
 
@@ -545,7 +550,7 @@ header {
 
 .form-personal {
     width: 100%;
-    background-color:  #1c1e27;
+    background-color: #1c1e27;
 }
 
 .formacion-p {
@@ -572,7 +577,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color:#1c1e27;;
+    background-color: #1c1e27;
+    ;
 
 }
 
@@ -596,100 +602,106 @@ header {
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 
-    /*MICA CSS*/
-    
-    main {
-        background-color: #1c1e27
-    }
-    
-    .img-contacto img {
-        height: 100px;
-        margin-top: 100px;
-        margin-bottom: 20px;
-    }
+/*MICA CSS*/
 
-    .contacto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+main {
+    background-color: #1c1e27
+}
 
-    /*COMIENZO CON EL FORM*/
-    
-    form {
-        width:400px;
-    }
-    
-    input, textarea {
-        width:400px;
-        height:27px;
-        resize: none;
-        background:#ffffffc9; /*fondo de input*/
-        border: none;
-        border-radius: 5px;
-        padding:20px; /*Tamaño del box*/
-        font-size:1.2em;
-        font-family:'IBM Plex Mono';
-        font-style: normal;
-        font-weight: 400;
-        text-align: center;
-        line-height: 21px;
-        text-align: left;
-        color:#000000;
-        margin-bottom: 15px;
-    }
-    
-    textarea {
-        height:200px;
-    }
+.img-contacto img {
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
 
-    input , textarea:focus {
-        outline: none; /*para que no marque los bordes cuando selecciono*/
-    }
-    
-    #submit {
-        padding: 10px;
-        background-color: var(--naranja-pescar);
-        border: none;
-        border-radius: 5px;
-        width:150px;
-        height:50px;
-        cursor:pointer;
-        margin-left: 250px;
-        margin-bottom: 60px;
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-        color: white;
-        font-weight: 600;
-        text-align: center;
-        line-height: 21px;
-    }
+/*COMIENZO CON EL FORM*/
 
-    /*Modifiqué el cursor-hover*/
-    #submit:hover {
-        transition: all .2s ease-in-out;    
-        transform: scale(1.05);
-    }
-    
-    .box {
-        /* Parrafo SemiBold */
-        font-family: 'IBM Plex Mono';
-        font-style: normal;
-        font-weight: 600;
-        font-size:1.2em; /*con esto cambias el tamaño de la letra*/
-        line-height: 21px;
-        color: #FFFFFF;
-        /* Box negro*/
-        background: #000000;
-        opacity: 0.75;
-        border-radius: 5px;
-        padding: 10px;
-        display:inline-block;
-        margin-bottom: 15px;
-    }
+form {
+    width: 400px;
+}
+
+input,
+textarea {
+    width: 400px;
+    height: 27px;
+    resize: none;
+    background: #ffffffc9;
+    /*fondo de input*/
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    /*Tamaño del box*/
+    font-size: 1.2em;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 21px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input,
+textarea:focus {
+    outline: none;
+    /*para que no marque los bordes cuando selecciono*/
+}
+
+#submit {
+    padding: 10px;
+    background-color: var(--naranja-pescar);
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-bottom: 60px;
+
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    line-height: 21px;
+}
+
+/*Modifiqué el cursor-hover*/
+#submit:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.box {
+    /* Parrafo SemiBold */
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2em;
+    /*con esto cambias el tamaño de la letra*/
+    line-height: 21px;
+    color: #FFFFFF;
+    /* Box negro*/
+    background: #000000;
+    opacity: 0.75;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
 
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
-/* Comienza Footer*/  
+/* Comienza Footer*/
 
 footer {
     display: flex;
@@ -705,6 +717,7 @@ footer div {
     display: inline-block;
     justify-content: space-between;
 }
+
 footer div:first-of-type {
     display: inline-block;
 }
@@ -728,7 +741,7 @@ footer div:nth-child(2) {
     margin-bottom: 35px;
 }
 
-footer div ul li:first-of-type{
+footer div ul li:first-of-type {
     color: var(--naranja-pescar);
     text-transform: uppercase;
     margin-bottom: 5px;
@@ -741,13 +754,14 @@ footer div ul li a {
 footer div ul li a:visited {
     color: black;
 }
+
 footer div ul li:first-of-type a {
     color: var(--naranja-pescar);
     font-weight: bold;
 }
 
 footer div ul li a:hover {
-    color:var(--azul-pescar);
+    color: var(--azul-pescar);
 }
 
 #redes li {
@@ -756,6 +770,7 @@ footer div ul li a:hover {
     display: inline-block;
     margin-bottom: 70px;
 }
+
 #redes li:first-of-type {
     background-image: url("assets/icono-twitter.png");
     background-repeat: no-repeat;
@@ -763,6 +778,7 @@ footer div ul li a:hover {
     width: 48px;
     height: 48px;
 }
+
 #redes li:nth-of-type(2) {
     background-image: url("assets/icono-fb.png");
     background-repeat: no-repeat;
@@ -770,25 +786,29 @@ footer div ul li a:hover {
     width: 48px;
     height: 48px;
 }
+
 #redes li:nth-of-type(3) {
     background-image: url("assets/icono-ln.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48;
 }
+
 #redes li:last-of-type {
     background-image: url("assets/icono-youtube.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
-#redes li:first-of-type:hover{
+
+#redes li:first-of-type:hover {
     background-image: url("assets/icono-twitter-hover.png");
     background-repeat: no-repeat;
     font-size: 0;
     width: 48px;
     height: 48px;
 }
+
 #redes li:nth-of-type(2):hover {
     background-image: url("assets/icono-fb-hover.png");
     background-repeat: no-repeat;
@@ -796,18 +816,21 @@ footer div ul li a:hover {
     width: 48px;
     height: 48px;
 }
+
 #redes li:nth-of-type(3):hover {
     background-image: url("assets/icono-ln-hover.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48;
 }
+
 #redes li:last-of-type:hover {
     background-image: url("assets/icono-youtube-hover.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
+
 #redes a {
     width: 48px;
     height: 48px;
