@@ -213,6 +213,12 @@ p {
     border: none;
     border-radius: 15px;
     margin-left: 25px;
+    cursor: pointer;
+}
+
+.gmail-button:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
 }
 
 .gmail img {
@@ -230,6 +236,12 @@ p {
     color: white;
     border: none;
     border-radius: 15px;
+    cursor: pointer;
+}
+
+.linkedin-button:hover {
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.02);
 }
 
 .linkedin img {
@@ -285,7 +297,7 @@ footer div:first-of-type {
 footer div .logo {
     background-image: url("/assets/logo_pescar.png");
     background-image: no-repeat;
-    height: 40px;
+    height: 120px;
     width: 200px;
 }
 footer div ul {
@@ -353,6 +365,8 @@ footer div ul li a:hover {
     width: 48px;
     height: 48px;
 }
+
+
 #redes a {
     width: 48px;
     height: 48px;
