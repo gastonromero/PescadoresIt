@@ -101,6 +101,7 @@ h2 {
     color: rgb(22, 26, 25);
     text-align: center;
     margin: 20px;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .form__container {
@@ -123,10 +124,11 @@ h2 {
 
 .form input {
     border-radius: 5px;
-    border: 2px solid black;
+    border: 2px solid grey;
     height: 28px;
     margin: 5px;
     padding: 7px;
+    width: 270px;
 }
 
 .como_nos_conociste textarea {
@@ -245,6 +247,27 @@ p {
     Line-height: 21px;
 }
 
+.password input {
+    position: relative;
+}
+
+.password2 input {
+    position: relative;
+}
+
+.password img {
+    position: absolute;
+    height: 25px;
+    margin-left: -35px;
+    margin-top: 6px;
+}
+
+.password2 img {
+    position: absolute;
+    height: 25px;
+    margin-left: -35px;
+    margin-top: 6px;
+}
 /*Finaliza form*/
 
 /*footer*/
