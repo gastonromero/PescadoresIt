@@ -305,6 +305,7 @@ header {
 
 .logo-about {
     height: 100px;
+    margin-top: 200px;
     margin-bottom: 15px;
     margin-left: 270px;
 }
@@ -324,6 +325,7 @@ header {
 
 .text {
     margin-left: 90px;
+    margin-bottom: 200px;
 }
 
 .text p:first-child{
@@ -416,15 +418,14 @@ header {
     display: block;
     text-align: center;
     background-color: #FFD147;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 5px solid black;
-    box-shadow: -8px 7px 2px 1px rgba(0, 0, 0, 0.87);
-    margin-left: 22em;
+    box-shadow: -10px 7px 3px 1px rgba(0, 0, 0, 0.87);
+    margin-left: 26em;
     margin-top: 0.2em;
     margin-bottom: 1em;
-    padding-top: 3em;
-    padding-bottom: 4.5em;
-    margin-left: 22em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 
 .fundacion-pescar div:first-of-type>div {
@@ -463,8 +464,8 @@ header {
 }
 
 .fundacion-pescar div:last-child {
-    margin-left: 1.5em;
-    margin-top: 3em;
+    margin-left: 3.0em;
+    margin-top: -3em;
 }
 
 .que-es-pescar .fundacion-pescar a {
@@ -502,12 +503,24 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 21px;
-
 }
 
 .herramientas-it {
     margin-top: 30px;
     text-align: center;
+}
+
+.link-h {
+    color: var(--naranja-pescar);
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400px;
+    Line-height: 21px;
+    font-family: 'IBM Plex Mono';
+}
+
+.link-h:hover {
+    color: var(--azul-pescar)
 }
 
 .icon-herramientas-it {
@@ -524,7 +537,7 @@ header {
     color: rgba(255, 255, 255, 0.7);
     font-family: 'IBM Plex Mono';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600px;
     line-height: 21px;
 }
 
@@ -571,7 +584,11 @@ header {
     text-transform: uppercase;
     margin-bottom: 5em;
     margin-right: 580px;
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 21px;
 }
 
 .herramientas-personal {
@@ -844,3 +861,4 @@ footer div ul li a:hover {
     font-size: 0;
     display: block;
 }
+
