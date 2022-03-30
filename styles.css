@@ -448,7 +448,7 @@ header {
 
 .fundacion-pescar div:first-of-type a:nth-child(3) {
     color: black;
-    background-color: #25FD02;
+    background-color:  #637b8b;
     border: 5px solid black;
     border-radius: 10px;
     padding: 00.3em 1em 0.3em 1em;
@@ -713,10 +713,9 @@ textarea:focus {
     font-size: 1.2em;
     /*con esto cambias el tamaño de la letra*/
     line-height: 21px;
-    color: #FFFFFF;
+    color: #ffffffc9;
     /* Box negro*/
     background: #000000;
-    opacity: 0.75;
     border-radius: 5px;
     padding: 10px;
     display: inline-block;
