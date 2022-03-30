@@ -90,7 +90,7 @@ header {
 
 .form {
     height: 76vh;
-    background-image: url(/assets/fondo.jpg);
+    background-image: url(/assets/fondo.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -101,6 +101,7 @@ h2 {
     color: rgb(22, 26, 25);
     text-align: center;
     margin-top: 20px;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .form__container {
@@ -342,53 +343,53 @@ footer div ul li a:hover {
     margin-bottom: 70px;
 }
 #redes li:first-of-type {
-    background-image: url("assets/icono-twitter.png");
+    background-image: url("/assets/icono-twitter.png");
     background-repeat: no-repeat;
     font-size: 0;
     width: 48px;
     height: 48px;
 }
 #redes li:nth-of-type(2) {
-    background-image: url("assets/icono-fb.png");
+    background-image: url("/assets/icono-fb.png");
     background-repeat: no-repeat;
     font-size: 0;
     width: 48px;
     height: 48px;
 }
 #redes li:nth-of-type(3) {
-    background-image: url("assets/icono-ln.png");
+    background-image: url("/assets/icono-ln.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48;
 }
 #redes li:last-of-type {
-    background-image: url("assets/icono-youtube.png");
+    background-image: url("/assets/icono-youtube.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
 }
 #redes li:first-of-type:hover{
-    background-image: url("assets/icono-twitter-hover.png");
+    background-image: url("/assets/icono-twitter-hover.png");
     background-repeat: no-repeat;
     font-size: 0;
     width: 48px;
     height: 48px;
 }
 #redes li:nth-of-type(2):hover {
-    background-image: url("assets/icono-fb-hover.png");
+    background-image: url("/assets/icono-fb-hover.png");
     background-repeat: no-repeat;
     font-size: 0;
     width: 48px;
     height: 48px;
 }
 #redes li:nth-of-type(3):hover {
-    background-image: url("assets/icono-ln-hover.png");
+    background-image: url("/assets/icono-ln-hover.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48;
 }
 #redes li:last-of-type:hover {
-    background-image: url("assets/icono-youtube-hover.png");
+    background-image: url("/assets/icono-youtube-hover.png");
     background-repeat: no-repeat;
     width: 48px;
     height: 48px;
