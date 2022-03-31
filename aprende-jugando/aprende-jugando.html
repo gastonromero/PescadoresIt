@@ -1,12 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/registrer/registro.css">
+    <title>Aprende Jugando: Formacion Personal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -25,49 +26,33 @@
         <a href="/mi-cuenta/mi-cuenta.html"><button type="button" class="acceder">MI CUENTA</button></a>
     </header>
 
-    <form class="form">
-        <div class="form__container">
-            <h2>Crea tu cuenta</h2>
-            <div class="nombre">
-                <label for="nombre"><span class="box">Nombre completo:</span></label>
-                <input id="nombre" name="nombre" type="text" minlength="3" autofocus required
-                placeholder="Ej: Jhon Snow">
+    <main>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Cargando pregunta...</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer" />
+                        <label for="a" id="a_text">Respuesta...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer" />
+                        <label for="b" id="b_text">Respuesta...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer" />
+                        <label for="c" id="c_text">Respuesta...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer" />
+                        <label for="d" id="d_text">Respuesta...</label>
+                    </li>
+                </ul>
             </div>
-            <div class="email">
-                <label for="email"><span class="box">Email:</span></label>
-                <input id="email" name="email" type="email" minlength="3" autofocus required
-                placeholder="Ej: JonSnow@gmail.com">
-            </div>
-            <div class="password">
-                <label for="password"><span class="box">Contraseña:</span></label>
-                <input id="password" name="password" type="password" minlength="3" autofocus required
-                placeholder="">
-                <img src="/assets/hidden_eye_icon.png" alt="">
-            </div>
-            <div class="password2">
-                <label for="repeat_pw"><span class="box">Repetir contraseña:</span></label>
-                <input id="repeat_pw" name="repeat_pw" type="repeat_pw" minlength="3" autofocus required
-                placeholder="">
-                <img src="/assets/hidden_eye_icon.png" alt="">
-            </div>
-            <div class="como_nos_conociste">
-                <textarea type="text" id="motivo" name="motivo" minlength="3" required
-                    placeholder="¿Cómo nos conociste?"></textarea>
-            </div>
-            <p>o crear con</p>
-            <div class="boton__redes">
-                <div class="gmail">
-                    <button class="gmail-button">Gmail</button>
-                    <img src="/assets/gmail-icon.png" alt="">
-                </div>
-                <div class="linkedin">
-                    <button class="linkedin-button">Linkedin</button>
-                    <img src="/assets/linkedin_social_icon.png" alt="">
-                </div>
-            </div>
-            <button class="continuar">Continuar</button>
+            <button class="boton-quiz" id="submit">Enviar</button>    
+            <script src="script.js"></script>
         </div>
-    </form>
+    </main>
 
     <footer>
         <div class="logo"></div>
@@ -109,4 +94,5 @@
         </div>
     </footer>
 </body>
+
 </html>
