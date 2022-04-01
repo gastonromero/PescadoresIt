@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=IBM+Plex+Mono:wght@300;400&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=IBM+Plex+Mono:wght@300;400&family=Roboto:wght@400;700&display=swap");
 :root {
-    --naranja-pescar: #FD7202;
-    --azul-pescar: #005CBD;
-    --index-background: #1c1e27;
-    --gris-pescar: rgba(255, 255, 255, 0.7);
+  --naranja-pescar: #fd7202;
+  --azul-pescar: #005cbd;
+  --index-background: #1c1e27;
+  --gris-pescar: rgba(255, 255, 255, 0.7);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-    display: none;
+  display: none;
 }
 
 /*Seccion inicio*/
@@ -21,62 +21,62 @@ h1 {
 li,
 a,
 button {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid hsla(0, 1%, 65%, 0.5)
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsla(0, 1%, 65%, 0.5);
 }
 
 .logo img {
-    height: 55px;
-    cursor: pointer;
-    margin-left: 60px;
-    padding-bottom: 2px;
+  height: 55px;
+  cursor: pointer;
+  margin-left: 60px;
+  padding-bottom: 2px;
 }
 
 .nav-links {
-    list-style: none;
+  list-style: none;
 }
 
 .nav-links li {
-    display: inline-block;
-    padding: 0px 20px;
-    margin: 0 30px;
-    font-size: 17px;
-    font-family: 'IBM Plex Mono', monospace;
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 0 30px;
+  font-size: 17px;
+  font-family: "IBM Plex Mono", monospace;
 }
 .nav-links li:hover {
-   transition: all .2s ease-in-out;
-   transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
 }
 
 .nav-links li a {
-    color: black;
+  color: black;
 }
 
 .nav-links li a:hover {
-    color: var(--naranja-pescar)
+  color: var(--naranja-pescar);
 }
 
 .acceder {
-    padding: 9px 25px;
-    background-color: var(--naranja-pescar);
-    border: none;
-    border-radius: 5px;
-    height: 45px;
-    margin-right: 160px;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
+  padding: 9px 25px;
+  background-color: var(--naranja-pescar);
+  border: none;
+  border-radius: 5px;
+  height: 45px;
+  margin-right: 160px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 .acceder:hover {
-   transition: all .2s ease-in-out;
-   transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
 }
 
 /*finaliza sección header*/
@@ -84,293 +84,316 @@ header {
 /*Formulario*/
 
 .background-banner img {
-    height: 75vh;
-    width: 100%;
+  height: 75vh;
+  width: 100%;
 }
 
-
 .form {
-    height: 76vh;
-    background-image: url(/assets/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
+  height: 76vh;
+  background-image: url(/assets/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
-    color: rgb(22, 26, 25);
-    text-align: center;
-    margin-top: 20px;
+  color: rgb(22, 26, 25);
+  text-align: center;
+  margin-top: 20px;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .form__container {
-   background-color: white;
-   opacity: calc(0.9);
-   height: 490px;
-   width: 500px;
-   display: flex;
-   flex-direction: column;
-   margin-top: 110px;
-   border-radius: 12.5px;
+  background-color: white;
+  opacity: calc(0.9);
+  height: 490px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  border-radius: 12.5px;
 }
 
 .form__input {
-    position: relative;
+  position: relative;
 }
 
 .form__group img {
-    position: absolute;
-    left: 59.5%;
-    bottom: 66.2%;
-    height: 35px;
+  position: absolute;
+  left: 59.5%;
+  bottom: 65.6%;
+  height: 35px;
 }
 
 .form__group input {
-    display: block;
-    margin-bottom: 10px;
-    width: 450px;
-    height: 40px;
-    margin: 10px 25px;
-    border-radius: 12.5px;
-    padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  width: 450px;
+  height: 40px;
+  margin: 10px 25px;
+  border-radius: 12.5px;
+  padding: 10px;
 }
 
 .form__container .forget a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .form__container .crear__cuenta a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 .iniciar {
-    width: 450px;
-    height: 40px;
-    color: white;
-    background-color: var(--naranja-pescar);
-    margin: 0 25px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 18px;
-    line-height: 23.4px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
+  width: 450px;
+  height: 40px;
+  color: white;
+  background-color: var(--naranja-pescar);
+  margin: 0 25px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  line-height: 23.4px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .iniciar:hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 .crear__cuenta {
-    width: 450px;
-    height: 40px;
-    color: white;
-    background-color: var(--azul-pescar);
-    margin: 0 25px;
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 18px;
-    line-height: 23.4px;
-    line-height: 23.4px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
+  width: 450px;
+  height: 40px;
+  color: white;
+  background-color: var(--azul-pescar);
+  margin: 0 25px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 18px;
+  line-height: 23.4px;
+  line-height: 23.4px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .crear__cuenta:hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 p {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 16px;
-    Line-height: 21px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16px;
+  line-height: 21px;
 }
 
 .boton__redes {
-    text-align: center;
-    display: flex;
+  text-align: center;
+  display: flex;
 }
 
 .boton__redes button {
-    width: 222px;
-    height: 40px;
-    font-size: 1.1em;
-    font-family: 'IBM Plex Mono', monospace;
-    margin-right: 5px;
+  width: 222px;
+  height: 40px;
+  font-size: 1.1em;
+  font-family: "IBM Plex Mono", monospace;
+  margin-right: 5px;
 }
 
 .gmail {
-    position: relative;
+  position: relative;
 }
 
 .gmail-button {
-    background-color: #1C1E27;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    margin-left: 25px;
-    cursor: pointer;
+  background-color: #1c1e27;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin-left: 25px;
+  cursor: pointer;
 }
 
 .gmail-button:hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 .gmail img {
-    position: absolute;
-    left: 35px;
-    top: -4px;
+  position: absolute;
+  left: 39px;
+  top: -4px;
 }
 
 .linkedin {
-    position: relative;
+  position: relative;
 }
 
 .linkedin-button {
-    background-color: #275784;
-    color: white;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
+  background-color: #275784;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .linkedin-button:hover {
-    transition: all 0.2s ease-in-out;
-    transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.02);
 }
 
 .linkedin img {
-    position: absolute;
-    height: 40px;
-    left: 15px;
+  position: absolute;
+  height: 40px;
+  left: 15px;
 }
 
 .forget {
-    display: flex;
-    justify-content: end;
-    margin: 5px 25px 15px 0;
+  display: flex;
+  justify-content: end;
+  margin: 5px 25px 15px 0;
 }
 
-
-
 .continuar {
-    display: flex;
-    justify-content: center;
-    margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
 }
 
 .cuenta {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .crear__cuenta {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
-/*footer*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/* Comienza Footer*/
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1920px;
-    height: 160px;
-    margin-right: 100px;
-    margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  height: 164px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 footer div {
-    display: inline-block;
-    justify-content: space-between;
+  display: inline-block;
+  justify-content: space-between;
 }
 footer div:first-of-type {
-    display: inline-block;
+  display: inline-block;
 }
 
-footer div .logo {
-    background-image: url("/assets/logo_pescar.png");
-    background-image: no-repeat;
-    height: 120px;
-    width: 200px;
+footer .logo {
+  background-image: url("/assets/logo_pescar.png");
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 230px;
 }
+
 footer div ul {
-    text-decoration: none;
-    list-style: none;
-    align-items: center;
-    align-items: initial;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  align-items: initial;
 }
 
 footer div:nth-child(2) {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
-footer div ul li:first-of-type{
-    color: var(--naranja-pescar);
-    text-transform: uppercase;
-    margin-bottom: 5px;
+footer div ul li:first-of-type {
+  color: var(--naranja-pescar);
+  text-transform: uppercase;
+  margin-bottom: 5px;
 }
 
 footer div ul li a {
-    font-family: 'IBM Plex Mono';
+  font-family: "IBM Plex Mono";
 }
 
 footer div ul li a:visited {
-    color: black;
+  color: black;
 }
 footer div ul li:first-of-type a {
-    color: var(--naranja-pescar);
-    font-weight: bold;
+  color: var(--naranja-pescar);
+  font-weight: bold;
 }
 
 footer div ul li a:hover {
-    color:var(--azul-pescar);
+  color: var(--azul-pescar);
 }
 
 #redes li {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    margin-bottom: 70px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-bottom: 70px;
 }
 #redes li:first-of-type {
-    background-image: url("/assets/icono-twitter.png");
-    background-repeat: no-repeat;
-    font-size: 0;
-    width: 48px;
-    height: 48px;
+  background-image: url("/assets/icono-twitter.png");
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 48px;
+  height: 48px;
 }
 #redes li:nth-of-type(2) {
-    background-image: url("/assets/icono-fb.png");
-    background-repeat: no-repeat;
-    font-size: 0;
-    width: 48px;
-    height: 48px;
+  background-image: url("/assets/icono-fb.png");
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 48px;
+  height: 48px;
 }
 #redes li:nth-of-type(3) {
-    background-image: url("/assets/icono-ln.png");
-    background-repeat: no-repeat;
-    width: 48px;
-    height: 48;
+  background-image: url("/assets/icono-ln.png");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48;
 }
 #redes li:last-of-type {
-    background-image: url("/assets/icono-youtube.png");
-    background-repeat: no-repeat;
-    width: 48px;
-    height: 48px;
+  background-image: url("/assets/icono-youtube.png");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
 }
-
-
+#redes li:first-of-type:hover {
+  background-image: url("/assets/icono-twitter-hover.png");
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 48px;
+  height: 48px;
+}
+#redes li:nth-of-type(2):hover {
+  background-image: url("/assets/icono-fb-hover.png");
+  background-repeat: no-repeat;
+  font-size: 0;
+  width: 48px;
+  height: 48px;
+}
+#redes li:nth-of-type(3):hover {
+  background-image: url("/assets/icono-ln-hover.png");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48;
+}
+#redes li:last-of-type:hover {
+  background-image: url("/assets/icono-youtube-hover.png");
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+}
 #redes a {
-    width: 48px;
-    height: 48px;
-    font-size: 0;
-    display: block;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
+  display: block;
 }
-

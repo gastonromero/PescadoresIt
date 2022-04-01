@@ -124,11 +124,14 @@ h2 {
 
 .form input {
     border-radius: 5px;
-    border: 2px solid grey;
-    height: 28px;
+    border: 2px solid rgba(128, 128, 128, 0.432);
+    height: 30px;
     margin: 5px;
-    padding: 7px;
-    width: 270px;
+    padding: px;
+    width: 260px;
+    font-size: 1em;
+    font-family: 'IBM Plex Mono';
+    line-height: 21px;
 }
 
 .como_nos_conociste textarea {
@@ -137,10 +140,10 @@ h2 {
     resize: none;
     background: #ffffffc9;
     margin: 5px auto;
-    border: 1px solid black;
+    border: 2px solid rgba(128, 128, 128, 0.432);
     border-radius: 5px;
     padding: 10px;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'IBM Plex Mono';
     line-height: 21px;
     color: #000000;
@@ -224,7 +227,7 @@ textarea:focus {
     height: 40px;
     color: white;
     background-color: var(--naranja-pescar);
-    margin: 20px 25px;
+    margin: 10px 25px;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 18px;
     line-height: 23.4px;
@@ -270,14 +273,15 @@ p {
 }
 /*Finaliza form*/
 
-/*footer*/
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/* Comienza Footer*/  
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1920px;
-    height: 160px;
+    height: 164px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -290,12 +294,14 @@ footer div:first-of-type {
     display: inline-block;
 }
 
-footer div .logo {
+
+footer .logo {
     background-image: url("/assets/logo_pescar.png");
-    background-image: no-repeat;
-    height: 180px;
-    width: 200px;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 230px;
 }
+
 footer div ul {
     text-decoration: none;
     list-style: none;
@@ -361,12 +367,35 @@ footer div ul li a:hover {
     width: 48px;
     height: 48px;
 }
-
-
+#redes li:first-of-type:hover{
+    background-image: url("/assets/icono-twitter-hover.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+}
+#redes li:nth-of-type(2):hover {
+    background-image: url("/assets/icono-fb-hover.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    width: 48px;
+    height: 48px;
+}
+#redes li:nth-of-type(3):hover {
+    background-image: url("/assets/icono-ln-hover.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48;
+}
+#redes li:last-of-type:hover {
+    background-image: url("/assets/icono-youtube-hover.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
 #redes a {
     width: 48px;
     height: 48px;
     font-size: 0;
     display: block;
 }
-

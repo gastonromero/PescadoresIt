@@ -1,14 +1,13 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="/login/login.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Aprende Jugando: Formacion Personal</title>
+    <link rel="stylesheet" href="aprende-jugando.css">
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -27,33 +26,34 @@
         <a href="/mi-cuenta/mi-cuenta.html"><button type="button" class="acceder">MI CUENTA</button></a>
     </header>
 
-    <form class="form">
-        <div class="form__container">
-        <h2>¡ Bienvenido nuevamente !</h2>
-        <div class="form__group">
-            <input type="email" id="mame" class="form__input" placeholder="Email" minlength="3" required>
-            <label for="name" class="form__label"></label>
-            <input type="password" id="password" class="form__input" placeholder="Contraseña">
-            <label for="password" class="form__label"></label>
-            <img src="/assets/hidden_eye_icon.png" alt="">
+    <main>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Cargando pregunta...</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer" />
+                        <label for="a" id="a_text">Respuesta...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer" />
+                        <label for="b" id="b_text">Respuesta...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer" />
+                        <label for="c" id="c_text">Respuesta...</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer" />
+                        <label for="d" id="d_text">Respuesta...</label>
+                    </li>
+                </ul>
+            </div>
+            <button class="boton-quiz" id="submit">Enviar</button>    
+            <script src="script.js"></script>
         </div>
-        <p class="forget"> <a href="#">¿Olvidaste tu contraseña?</a></p>
-        <button class="iniciar">Iniciar sesión</button>
-        <p class="continuar">o continuar con...</p>
-        <div class="boton__redes">
-            <div class="gmail">
-                <button class="gmail-button">Gmail</button>
-                <img src="/assets/gmail-icon.png" alt="">
-            </div>
-            <div class="linkedin">
-                <button class="linkedin-button">Linkedin</button>
-                <img src="/assets/linkedin_social_icon.png" alt="">
-            </div>
-            </div>
-            <p class="cuenta">¿No tenes una cuenta?</p>
-            <button class="crear__cuenta"><a href="/registrer/registro.html">Crear una cuenta</a></button>
-        </div>
-    </form>
+    </main>
+
     <footer>
         <div class="logo"></div>
         <div>
@@ -94,4 +94,5 @@
         </div>
     </footer>
 </body>
+
 </html>
