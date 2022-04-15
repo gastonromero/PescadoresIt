@@ -190,6 +190,10 @@ header {
     padding-bottom: 2px;
 }
 
+.menu {
+    display: non;
+}
+
 .nav-links {
     list-style: none;
 }
@@ -861,4 +865,40 @@ footer div ul li a:hover {
     font-size: 0;
     display: block;
 }
+
+
+/* MEDIA QUERYS */
+
+@media screen and (max-width: 480px){
+    /* Comienza mq inicio */
+    .nav-links li{
+        display: none;
+    }
+    .logo img {
+        margin-left: 10px;
+    }
+    .acceder {
+        display: none;
+    }
+    .search-bar {
+        display: none;
+    }
+
+    .frase-header{
+        margin: 5px;
+        height: 55px;
+    }
+    .frase-header p{
+        font-size: 12px;
+    }
+    .menu {
+        display: block;
+        margin-left: 210px;
+        margin-top: 8px; 
+    }
+    /* Finaliza mq inicio */
+    /* Comienza mq about us */
+}
+
+
 
