@@ -886,15 +886,18 @@ footer div ul li a:hover {
 
     .frase-header{
         margin: 5px;
-        height: 55px;
+        height: 33px;
     }
     .frase-header p{
         font-size: 12px;
     }
     .menu {
         display: block;
-        margin-left: 210px;
+        margin-left: 300px;
         margin-top: 8px; 
+    }
+    .menu img {
+        height: 30px;
     }
     /* Finaliza mq inicio */
     /* Comienza mq about us */

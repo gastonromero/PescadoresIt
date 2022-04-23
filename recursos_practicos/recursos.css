@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+span {
+    color: #FD7202;
+}
+
+.fish img {
+    height: 25px;
+}
+
+button {
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FD7202;
+    color: white;
+    font-size: 13px;
+}
+
+header p {
+    color: #FFD147;
+    margin-top: 10px;
+}
