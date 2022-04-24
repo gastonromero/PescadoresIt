@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=IBM+Plex+Mono:wght@300;400&family=Roboto:wght@400;700&display=swap');
+
+/*Colores -var*/
+:root {
+    --naranja-pescar: #FD7202;
+    --azul-pescar: #005CBD;
+    --index-background: #1c1e27;
+    --gris-pescar: rgba(255, 255, 255, 0.7);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +21,20 @@ header {
     justify-content: space-around;
 }
 
+header h2 {
+    margin-top: 5px;
+}
+
 span {
-    color: #FD7202;
+    color: var(--naranja-pescar);
 }
 
 .fish img {
-    height: 25px;
+    height: 35px;
+}
+
+.fish span {
+    
 }
 
 button {
@@ -24,12 +42,53 @@ button {
     width: 150px;
     border: 1px solid black;
     border-radius: 5px;
-    background-color: #FD7202;
+    background-color: var(--naranja-pescar);
     color: white;
     font-size: 13px;
+    margin-top: 2px;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
 }
 
 header p {
-    color: #FFD147;
+    color: var(--naranja-pescar);
     margin-top: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+article h2 {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'IBM Plex Mono';
+}
+
+article img {
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+article p {
+    margin-top: 15px;
+    color: white;
+    font-family: 'IBM Plex Mono';
+    padding: 20px;
+}
+
+main {
+    background-color: var(--index-background);
 }
