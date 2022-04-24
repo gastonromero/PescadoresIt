@@ -7,14 +7,14 @@ let citas= [
     'Nuestra presencia en el mundo, que implica elección y decisión, no es una presencia neutra.',
     ' Ninguna persona ignora todo. Nadie lo sabe todo. Todos sabemos algo. Todos ignoramos algo. Por eso aprendemos siempre.',
     'Educación es lo que queda después de olvidar lo que se ha aprendido en la escuela.'
-]
+];
 
 let autores = [
     'Jonh Grinder',
     'Paulo Freire', 
     'Paulo Freire', 
     'Albert Einstein'
-]
+];
 
 let lastNumber = 0;
 
@@ -29,5 +29,4 @@ function random () {
   }
 } // End random function
 
-buttonCite.addEventListener('click', rand); // Call the function, in events you can't do this -> rand() , parenthesis no!
-s
+buttonCite.addEventListener('click', random); // Call the function, in events you can't do this -> rand() , parenthesis no!

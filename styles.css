@@ -1160,3 +1160,125 @@ footer div ul li a:hover {
 }
 
 
+
+/* Comienza Seccion Ingreso*/  
+
+.submenu {
+	position: relative;
+	display: inline-block;
+    margin-right: 80px !important;
+}	
+
+.absoluta {
+	position: absolute;
+	display: none;
+    font-family: 'Roboto';
+	font-size: 22px;
+	width: 180px;
+	left: -40px;
+} 
+
+.absoluta li a {
+	position: relative;
+	display: inline-block;
+	background-color: #F2F0F1;
+	width: 10em;
+    height: 40px;
+	border: none;
+	border-top: solid 1px  var(--naranja-pescar);
+	border-left: solid 1px  var(--naranja-pescar);
+	border-right: solid 1px  var(--naranja-pescar);
+    border-radius: 6px;
+    text-align: center;
+    padding-top: 5px;
+    text-align: initial;
+    
+}
+
+.absoluta li a:last-child {
+    border-bottom: solid 1px white;
+}
+
+.absoluta li a {
+	color: black;
+    padding-left: 1em;
+}
+
+.absoluta li a:hover {
+	color: var(--naranja-pescar);
+}
+
+.submenu:hover .absoluta {
+	display: block;
+	margin-top: 2px;
+    padding: 2px;
+}
+
+#main-ingreso {
+    background-image: url(/assets/fondo.jpg);
+   
+    width: 100%;
+    height: 992px;
+    
+}
+#main-ingreso .primero { 
+    max-width: 1280px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8em;
+
+}
+#main-ingreso .primero img {
+    margin-left: 7.5em;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+#main-ingreso .primero h2 {
+    font-size: 22px;
+    margin: auto; 
+    margin-left: 1.5em;
+    text-align: center;
+}
+.circulo {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: #1C1E27 ;
+}
+
+main .segundo article{ 
+    margin: 5em 10em 5em 10em; 
+    background-color: orange;
+    text-align: right;
+
+}
+#boton-cita {
+    width: 180px;
+    height: 40px;
+    background-color: var(--naranja-pescar);
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 2em;
+    cursor: pointer;
+    outline: none;
+    text-align: center;
+   padding: 2px;
+  }
+  
+  #cita { 
+      font-family: "Roboto", sans-serif;
+      color:white;
+      font-size: 36px;
+ }
+  
+  #autor {
+       margin-right: 2em;
+  }
+
+
+
+/* Termina Seccion Ingreso*/  
+
