@@ -23,6 +23,12 @@ header {
 
 header h2 {
     margin-top: 5px;
+    font-family: 'IBM Plex Mono';
+    font-size: 1.2em;
+}
+
+header p {
+    font-family: 'IBM Plex Mono';
 }
 
 span {
@@ -34,7 +40,7 @@ span {
 }
 
 .fish span {
-    
+    font-size: 1.4em;
 }
 
 button {
@@ -46,6 +52,12 @@ button {
     color: white;
     font-size: 13px;
     margin-top: 2px;
+}
+
+button:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 a{
@@ -61,6 +73,10 @@ header p {
 main {
     display: flex;
     flex-direction: column;
+}
+
+.topcoder h2 {
+    margin-top: 15px;
 }
 
 article {
@@ -91,4 +107,13 @@ article p {
 
 main {
     background-color: var(--index-background);
+}
+
+.formacion_it img {
+    height: 100px;
+    border: 4px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
