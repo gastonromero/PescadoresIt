@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="/index.html#inicio"><img class="logo" src="/assets/logo_pescar.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/index.html#inicio">Inicio</a></li>
+                <li><a href="/index.html#nosotros">Acerca de Nosotros</a></li>
+                <li><a href="/index.html#pescar">¿Qué es Pescar?</a></li>
+                <li><a href="/index.html#formacionIt">Formacion IT</a></li>
+                <li><a href="/index.html#formacionPersonal">Formacion Personal</a></li>
+                <li><a href="/index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <a href="/mi-cuenta/mi-cuenta.html"><button type="button" class="acceder">MI CUENTA</button></a>
+    </header>
+    
+   <main>
+        <div id="container">
+            <!--    Start Section     -->
+            <div id="start">¿Estás listo?</div>
+    
+            <!--    Guide Section    -->
+            <div id="guide">
+                <h2>Guía de preguntas</h2>
+                <h4>1. Sólo tienes 20 segundos para cada pregunta.</h4>
+                <h4>2. Una vez seleccionada la respuesta, no se puede deshacer.</h4>
+                <h4>3. Obtendrás puntos en base a tus respuestas correctas.</h4>
+                <h4>4. No puedes salir del juego mientras respondes.</h4>
+                <div id="button">
+                    <button id="exit">Salir</button>
+                    <button id="continue">Continuar</button>
+                </div>
+            </div>
+    
+            <!--    Quiz Section    -->
+            <div id="quiz">
+                <div id="quiz_header">
+                    <h5>Test Pescar</h5>
+                    <div id="timer">
+                        <h6>Tiempo</h6>
+                        <h6 id="time">00</h6>
+                    </div>
+                </div>
+    
+                <!--     Quiz Questions  -->
+    
+                <div id="question">
+                    <h2 id="questionNo"></h2>
+                    <h2 id="questionText"></h2>
+                </div>
+    
+                <!--       Quiz Choices   -->
+    
+                <div id="optionList">
+                    <h4 class="choice_que" id="option1"></h4>
+                    <h4 class="choice_que" id="option2"></h4>
+                    <h4 class="choice_que" id="option3"></h4>
+                    <h4 class="choice_que" id="option4"></h4>
+                </div>
+    
+                <!--  Answers Section-->
+    
+                <div id="answersSection">
+                    <h3 id="total_correct">3 de 10 Preguntas</h3>
+                    <h3 id="next_question">Siguiente</h3>
+                </div>
+            </div>
+            <!--   Result Section  -->
+            <div id="result">
+                <i class="fas fa-trophy"></i>
+                <h6>¡Completaste el test!</h6>
+                <h6 id="points">Respondiste 4 de 10</h6>
+                <button id="quit">Salir del test</button>
+                <button id="startAgain">Empezar de nuevo</button>
+            </div>
+        </div>
+   </main>
+
+
+    <footer>
+        <div class="logo"></div>
+        <div>
+            <ul>
+                <li><a href="/index.html#inicio">Inicio</a></li>
+                <li><a href="/index.html#nosotros">Acerca de Nosotros</a></li>
+                <li><a href="/index.html#pescar">¿Qué es Pescar?</a></li>
+                <li><a href="/index.html#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="/index.html#formacionIt">Formación IT</a></li>
+                <li><a href="#">Aprendé Jugando</a></li>
+                <li><a href="#">Ejercicios de Lógica</a></li>
+                <li><a href="#">Ejercicios de Programación</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Foro de Ayuda</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="/index.html#formacionPersonal">Formación Personal</a></li>
+                <li><a href="#">Aprendé Jugando</a></li>
+                <li><a href="#">Armado de CV</a></li>
+                <li><a href="#">Emulador de Entrevistas</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Foro de Ayuda</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul id="redes">
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
